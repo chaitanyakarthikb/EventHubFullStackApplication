@@ -1,10 +1,10 @@
-package com.Eventhub.EventHub;
+package Eventhub.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EventHubApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
