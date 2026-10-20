@@ -7,9 +7,11 @@ import java.util.UUID;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
 @Builder
+@ToString
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Event {
+    @EqualsAndHashCode.Include
     private UUID eventId;
     @Setter 
     private UUID venueId;
