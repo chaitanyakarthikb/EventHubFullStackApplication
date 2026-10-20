@@ -11,6 +11,8 @@ import java.util.UUID;
 @Builder
 public class Event {
     private UUID eventId;
+    @Setter 
+    private UUID venueId;
     @Setter
     private String eventName;
     @Setter
