@@ -2,6 +2,7 @@ package Eventhub.demo.Service.impl;
 
 import Eventhub.demo.DTO.EventReqDTO;
 import Eventhub.demo.Entity.Event;
+import Eventhub.demo.Exception.BadRequestException;
 import Eventhub.demo.Exception.EventNotFoundException;
 import Eventhub.demo.Repository.EventRepository;
 import Eventhub.demo.Repository.Impl.EventRepositoryImpl;
@@ -15,7 +16,11 @@ import java.util.UUID;
 @Service
 public class EventServiceImpl implements EventService {
 
-    public EventRepositoryImpl eventRepository;
+    private final EventRepositoryImpl eventRepository;
+
+    public EventServiceImpl(EventRepositoryImpl eventRepository){
+        this.eventRepository = eventRepository;
+    }
 
     @Override
     public Event saveEvent(EventReqDTO eventReqDTO) {
@@ -25,16 +30,12 @@ public class EventServiceImpl implements EventService {
         event.setDateAndTime(eventReqDTO.getTimeAndDate());
         event.setEventCapacity(eventReqDTO.getEventCapacity());
         event.setEventId(UUID.randomUUID());
-        eventRepository.saveEvent(event);
-        return event;
+        return eventRepository.saveEvent(event);
     }
 
     @Override
     public Event findById(UUID eventId) {
-        if (eventRepository.findById(eventId).isPresent()){
-            return eventRepository.findById(eventId).get();
-        }
-        throw new EventNotFoundException("No Event Found with the specified id : " + eventId);
+        return eventRepository.findById(eventId).orElseThrow(()->new EventNotFoundException("No Event found with the ID : "+eventId));
     }
 
     @Override
