@@ -12,6 +12,7 @@ import java.util.UUID;
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Event {
     @EqualsAndHashCode.Include
+    @Setter
     private UUID eventId;
     @Setter 
     private UUID venueId;
