@@ -6,10 +6,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-@Repository
 public interface EventRepository{
-     Event saveEvent(Event event);
-     Optional<Event> findById(UUID eventId);
-     List<Event> findAllEvents();
-     Optional<Event> deleteById(UUID eventId);
+     Event createEvent(Event event);
+     Optional<Event> getEventById(UUID eventId);
+     List<Event> getAllEvents();
+     Optional<Event> deleteEvent(UUID eventId);
+     Event updateEvent(Event event,UUID eventId);
 }

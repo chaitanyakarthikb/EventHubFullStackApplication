@@ -10,30 +10,36 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Repository
 public class EventRepositoryImpl implements EventRepository {
-    ConcurrentHashMap<UUID,Event>events = new ConcurrentHashMap<>();
+    private final ConcurrentHashMap<UUID,Event>events = new ConcurrentHashMap<>();
 
     @Override
-    public Event saveEvent(Event event) {
-        UUID key = UUID.randomUUID();
-        events.put(key,event);
+    public Event createEvent(Event event) {
+        events.put(event.getEventId(),event);
         return event;
-
     }
 
     @Override
-    public Optional<Event> findById(UUID eventId) {
+    public Optional<Event> getEventById(UUID eventId) {
         return Optional.ofNullable(events.get(eventId));
     }
 
     @Override
-    public List<Event> findAllEvents() {
+    public List<Event> getAllEvents() {
         return new ArrayList<>(events.values());
     }
 
     @Override
-    public Optional<Event> deleteById(UUID eventId) {
-        Optional<Event> myEvent = findById(eventId);
-        myEvent.ifPresent(event -> events.remove(event.getEventId()));
-        return myEvent;
+    public Optional<Event> deleteEvent(UUID eventId) {
+        Event event = events.get(eventId);
+        if(event == null){
+            throw new EventNotFoundException("No Event found with the Event ID mentioned " + eventId);
+        }
+        return Optional.of(event);
+    }
+
+    @Override
+    public Event updateEvent(Event event, UUID eventId) {
+        events.put(eventId,event);
+        return event;
     }
 }

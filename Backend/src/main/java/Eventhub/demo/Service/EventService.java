@@ -8,10 +8,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-@Service
 public interface EventService {
-    Event saveEvent(EventReqDTO eventReqDTO);
-    Event findById(UUID eventId);
-    List<Event> findAllEvents();
-    Optional<Event> deleteById(UUID eventId);
+    Event createEvent(EventReqDTO eventReqDTO);
+    Event getEventById(UUID eventId);
+    List<Event> getAllEvents();
+    Optional<Event> deleteEvent(UUID eventId);
+    Event updateEvent(EventReqDTO eventReqDTO, UUID eventId);
 }
