@@ -14,8 +14,7 @@ public class EventRepositoryImpl implements EventRepository {
 
     @Override
     public Event saveEvent(Event event) {
-        UUID key = UUID.randomUUID();
-        events.put(key,event);
+        events.put(event.getEventId(),event);
         return event;
     }
 

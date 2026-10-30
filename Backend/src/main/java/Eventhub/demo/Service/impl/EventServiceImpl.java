@@ -52,4 +52,15 @@ public class EventServiceImpl implements EventService {
         Optional<Event> myEvent =  eventRepository.deleteById(eventId);
         return Optional.ofNullable(myEvent).orElseThrow(()->new EventNotFoundException("NO Event Found with the specified id : " + eventId));
     }
+
+    @Override
+    public Event updateEvent(UUID eventId, EventReqDTO eventReqDTO){
+        Event event = findById(eventId);
+        event.setEventCapacity(eventReqDTO.getEventCapacity());
+        event.setEventName(eventReqDTO.getEventName());
+        event.setVenueId(eventReqDTO.getVenueId());
+        event.setDateAndTime(eventReqDTO.getTimeAndDate());
+        eventRepository.saveEvent(event);
+        return event;
+    }
 }

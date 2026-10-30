@@ -14,4 +14,5 @@ public interface EventService {
     Event findById(UUID eventId);
     List<Event> findAllEvents();
     Optional<Event> deleteById(UUID eventId);
+    Event updateEvent(UUID eventId, EventReqDTO eventReqDTO);
 }

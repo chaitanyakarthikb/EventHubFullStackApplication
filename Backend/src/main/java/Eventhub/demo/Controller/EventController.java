@@ -72,18 +72,18 @@ public class EventController {
         }
     }
 
-//    @PutMapping("/{id}")
-//    public ResponseEntity<Map<String,Object>> updateEvent(@PathVariable("id") UUID id, @RequestBody EventReqDTO eventReqDTO){
-//        try{
-//            Map<String,Object> response = new HashMap<>();
-//            response.put("apiStatus","Success");
-//            response.put("event",eventServiceImpl.);
-//            return new ResponseEntity<>(response,HttpStatusCode.valueOf(200));
-//        } catch (Exception e) {
-//            throw new BadRequestException("Something went wrong in deleteById");
-//        }
-//
-//    }
+    @PutMapping("/{id}")
+    public ResponseEntity<Map<String,Object>> updateEvent(@PathVariable("id") UUID id, @RequestBody EventReqDTO eventReqDTO){
+        try{
+            Map<String,Object> response = new HashMap<>();
+            response.put("apiStatus","Success");
+            response.put("event",eventServiceImpl.updateEvent(id,eventReqDTO));
+            return new ResponseEntity<>(response,HttpStatusCode.valueOf(200));
+        } catch (Exception e) {
+            throw new BadRequestException("Something went wrong in deleteById");
+        }
+
+    }
 
 
 }
