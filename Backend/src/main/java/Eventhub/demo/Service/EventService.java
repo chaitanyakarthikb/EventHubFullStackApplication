@@ -12,6 +12,6 @@ public interface EventService {
     Event createEvent(EventReqDTO eventReqDTO);
     Event getEventById(UUID eventId);
     List<Event> getAllEvents();
-    Optional<Event> deleteEvent(UUID eventId);
+    Event deleteEvent(UUID eventId);
     Event updateEvent(UUID eventId, EventReqDTO eventReqDTO);
 }

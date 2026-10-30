@@ -43,13 +43,12 @@ public class EventServiceImpl implements EventService {
     }
 
     @Override
-    public Optional<Event> deleteEvent(UUID eventId) {
-        Event event  = eventRepository.findById(eventId).isPresent() ? eventRepository.findById(eventId).get() : null;
-        if(event == null){
-            throw new EventNotFoundException("No Event Found with the specified id : " + eventId);
-        }
+    public Event deleteEvent(UUID eventId) {
         Optional<Event> myEvent =  eventRepository.deleteById(eventId);
-        return Optional.ofNullable(myEvent).orElseThrow(()->new EventNotFoundException("NO Event Found with the specified id : " + eventId));
+        if(myEvent.isEmpty()){
+            throw new EventNotFoundException("No Event found with the ID : "+eventId);
+        }
+        return myEvent.get();
     }
 
     @Override
