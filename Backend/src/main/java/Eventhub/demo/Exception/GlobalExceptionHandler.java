@@ -1,5 +1,6 @@
 package Eventhub.demo.Exception;
 
+import Eventhub.demo.Utils.ErrorMessageBody;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -13,25 +14,20 @@ import java.util.Map;
 public class GlobalExceptionHandler {
     @ExceptionHandler(EventNotFoundException.class)
     public ResponseEntity<Map<String,Object>> handleEventNotFound(EventNotFoundException eventNotFoundException){
-        HashMap<String,Object>map = new HashMap<>();
-        map.put("apiStatus","error");
-        map.put("message", eventNotFoundException.getMessage());
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",eventNotFoundException.getMessage());
         return ResponseEntity.status(HttpStatusCode.valueOf(404)).body(map);
     }
 
     @ExceptionHandler(MethodArgumentTypeMismatchException.class)
     public ResponseEntity<Map<String ,Object>> handleMethodArguementTypeMismatchException(MethodArgumentTypeMismatchException methodArgumentTypeMismatchException){
-        HashMap<String , Object> map = new HashMap<>();
-        map.put("apiStatus","error");
-        map.put("message",String.format("The parameter '%s' must be a valid %s.",methodArgumentTypeMismatchException.getName(),methodArgumentTypeMismatchException.getRequiredType().getSimpleName()));
+        assert methodArgumentTypeMismatchException.getRequiredType() != null;
+        HashMap<String,Object> map = ErrorMessageBody.buildErrorMessageBody("error",String.format("Invalid Type for parameter %s , Expected %s.",methodArgumentTypeMismatchException.getName(),methodArgumentTypeMismatchException.getRequiredType().getSimpleName()));
         return ResponseEntity.status(HttpStatusCode.valueOf(400)).body(map);
     }
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String,Object>> handleFallbackError(Exception e){
-        HashMap<String,Object>map = new HashMap<>();
-        map.put("apiStatus","error");
-        map.put("message",e.getMessage());
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error","An Unexpected Error Occurred, Please try again");
         return ResponseEntity.status(HttpStatusCode.valueOf(500)).body(map);
     }
 }
