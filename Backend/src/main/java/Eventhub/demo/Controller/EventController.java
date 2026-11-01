@@ -4,6 +4,7 @@ import Eventhub.demo.DTO.EventReqDTO;
 import Eventhub.demo.Entity.Event;
 import Eventhub.demo.Service.EventService;
 import Eventhub.demo.Service.impl.EventServiceImpl;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -20,7 +21,7 @@ public class EventController {
     }
 
     @PostMapping
-    public ResponseEntity<Map<String,Object>> saveEvent(@RequestBody EventReqDTO eventReqDTO){
+    public ResponseEntity<Map<String,Object>> saveEvent(@Valid @RequestBody EventReqDTO eventReqDTO){
         Map<String,Object> response = new HashMap<>();
         response.put("apiStatus","Success");
         response.put("event",eventService.createEvent(eventReqDTO));
@@ -54,7 +55,7 @@ public class EventController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Map<String,Object>> updateEvent(@PathVariable("id") UUID id, @RequestBody EventReqDTO eventReqDTO){
+    public ResponseEntity<Map<String,Object>> updateEvent(@PathVariable("id") UUID id,@Valid @RequestBody EventReqDTO eventReqDTO){
             Map<String,Object> response = new HashMap<>();
             response.put("apiStatus","Success");
             response.put("event",eventService.updateEvent(id,eventReqDTO));
