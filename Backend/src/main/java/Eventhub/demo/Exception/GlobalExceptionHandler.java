@@ -52,7 +52,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String,Object>> handleFallbackError(Exception e){
-        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error","An Unexpected Error Occurred, Please try again" + e.getMessage());
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error","An Unexpected Error Occurred, Please try again");
         return ResponseEntity.status(HttpStatusCode.valueOf(500)).body(map);
     }
 }
