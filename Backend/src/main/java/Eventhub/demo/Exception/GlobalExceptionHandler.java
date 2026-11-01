@@ -38,7 +38,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(UnexpectedTypeException.class)
     public ResponseEntity<Map<String,Object>> handleUnexpectedTypeException(UnexpectedTypeException exception){
         HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",String.format("Validation Failed due to the following " + exception.getMessage() ));
-        return ResponseEntity.status(HttpStatusCode.valueOf(400)).body(map);
+        return ResponseEntity.status(HttpStatusCode.valueOf(500)).body(map);
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
