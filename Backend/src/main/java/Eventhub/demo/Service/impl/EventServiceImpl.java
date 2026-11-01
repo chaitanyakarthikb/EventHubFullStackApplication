@@ -59,6 +59,9 @@ public class EventServiceImpl implements EventService {
     @Override
     public Event updateEvent(UUID eventId, EventReqDTO eventReqDTO){
         Event event = getEventById(eventId);
+        if (eventReqDTO.getTimeAndDate()!=event.getDateAndTime() && eventReqDTO.getTimeAndDate().isBefore(Instant.now())) {
+            throw new BadRequestException("Event time and date cannot be in the past.");
+        }
         event.setEventCapacity(eventReqDTO.getEventCapacity());
         event.setEventName(eventReqDTO.getEventName());
         event.setVenueId(eventReqDTO.getVenueId());

@@ -22,6 +22,12 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatusCode.valueOf(404)).body(map);
     }
 
+    @ExceptionHandler(BadRequestException.class)
+    public ResponseEntity<Map<String,Object>> handleIllegalArgumentException(BadRequestException exception){
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",exception.getMessage());
+        return ResponseEntity.status(HttpStatusCode.valueOf(400)).body(map);
+    }
+
     @ExceptionHandler(MethodArgumentTypeMismatchException.class)
     public ResponseEntity<Map<String ,Object>> handleMethodArguementTypeMismatchException(MethodArgumentTypeMismatchException methodArgumentTypeMismatchException){
         assert methodArgumentTypeMismatchException.getRequiredType() != null;
@@ -48,13 +54,6 @@ public class GlobalExceptionHandler {
 
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(body);
     }
-
-    @ExceptionHandler(BadRequestException.class)
-    public ResponseEntity<Map<String,Object>> handleIllegalArgumentException(BadRequestException exception){
-        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",exception.getMessage());
-        return ResponseEntity.status(HttpStatusCode.valueOf(400)).body(map);
-    }
-
 
     @ExceptionHandler(Exception.class)
     public ResponseEntity<Map<String,Object>> handleFallbackError(Exception e){
