@@ -13,9 +13,7 @@ import java.util.UUID;
 
 @Getter
 public class EventReqDTO {
-    @Future(message = "Date and Time must be in the future")
     @NotNull(message = "Date and Time cannot be null")
-    @NotBlank(message = "Date and Time cannot be blank")
     private Instant timeAndDate;
     @Length(min = 3)
     @NotBlank
@@ -23,6 +21,5 @@ public class EventReqDTO {
     @Min(value = 1, message = "Event capacity must be greater than 0")
     private int eventCapacity;
     @NotNull(message = "Venue ID cannot be null")
-    @NotBlank(message = "Venue ID cannot be blank")
     private UUID venueId;
 }
