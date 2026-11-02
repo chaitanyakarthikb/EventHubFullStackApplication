@@ -31,7 +31,6 @@ public class EventServiceImpl implements EventService {
             log.warn("Attempted to create an event with a past date and time: {}",eventReqDTO.getTimeAndDate());
             throw new BadRequestException("Event time and date cannot be in the past.");
         }
-        log.info("Event creation Started : venueId : {} " ,eventReqDTO.getVenueId());
         Event event = new Event();
         event.setEventName(eventReqDTO.getEventName());
         event.setVenueId(eventReqDTO.getVenueId());
@@ -39,26 +38,23 @@ public class EventServiceImpl implements EventService {
         event.setEventCapacity(eventReqDTO.getEventCapacity());
         event.setEventId(UUID.randomUUID());
         Event responseEvent = eventRepository.saveEvent(event);
-        log.info("Event Created Successfully, eventID : {}",event.getEventId());
+        log.info("Event Created Successfully, eventID : {}",responseEvent.getEventId());
         return responseEvent;
 
     }
 
     @Override
     public Event getEventById(UUID eventId) {
-        log.info("Received request at EventService to find event with ID: {}", eventId);
         return eventRepository.findById(eventId).orElseThrow(()->new EventNotFoundException("No Event found with the ID : "+eventId));
     }
 
     @Override
     public List<Event> getAllEvents() {
-        log.info("Received request at EventService to find all events");
         return eventRepository.findAllEvents();
     }
 
     @Override
     public Event deleteEvent(UUID eventId) {
-        log.info("Received request at EventService to delete event with ID : {}", eventId);
         Optional<Event> myEvent =  eventRepository.deleteById(eventId);
         if(myEvent.isEmpty()){
             log.warn("No event found with the ID : {} to delete", eventId);
