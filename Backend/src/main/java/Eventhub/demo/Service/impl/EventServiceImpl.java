@@ -45,7 +45,9 @@ public class EventServiceImpl implements EventService {
 
     @Override
     public Event getEventById(UUID eventId) {
-        return eventRepository.findById(eventId).orElseThrow(()->new EventNotFoundException("No Event found with the ID : "+eventId));
+        Event event = eventRepository.findById(eventId).orElseThrow(()->new EventNotFoundException("No Event found with the ID : "+eventId));
+        log.info("Event Found Successfully, eventID : {}",event.getEventId());
+        return event;
     }
 
     @Override
@@ -60,7 +62,9 @@ public class EventServiceImpl implements EventService {
             log.warn("No event found with the ID : {} to delete", eventId);
             throw new EventNotFoundException("No Event found with the ID : "+eventId);
         }
-        return myEvent.get();
+        Event event = myEvent.get();
+        log.info("Event Deleted Successfully, eventID : {}",event.getEventId());
+        return event;
     }
 
     @Override
