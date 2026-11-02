@@ -28,18 +28,20 @@ public class EventServiceImpl implements EventService {
     @Override
     public Event createEvent(EventReqDTO eventReqDTO) {
         if (eventReqDTO.getTimeAndDate().isBefore(Instant.now())) {
-            log.error("Attempted to create an event with a past date and time: {}",eventReqDTO.getTimeAndDate());
+            log.warn("Attempted to create an event with a past date and time: {}",eventReqDTO.getTimeAndDate());
             throw new BadRequestException("Event time and date cannot be in the past.");
         }
-        log.info("Received request at EventService with the following details , venueId {} and eventName {} " ,eventReqDTO.getVenueId(), eventReqDTO.getEventName());
+        log.info("Event creation Started : venueId : {} " ,eventReqDTO.getVenueId());
         Event event = new Event();
         event.setEventName(eventReqDTO.getEventName());
         event.setVenueId(eventReqDTO.getVenueId());
         event.setDateAndTime(eventReqDTO.getTimeAndDate());
         event.setEventCapacity(eventReqDTO.getEventCapacity());
         event.setEventId(UUID.randomUUID());
-        log.info("Event Creation Processing is done at the service layer, sent to Repository Layer with eventID {}",event.getEventId());
-        return eventRepository.saveEvent(event);
+        Event responseEvent = eventRepository.saveEvent(event);
+        log.info("Event Created Successfully, eventID : {}",event.getEventId());
+        return responseEvent;
+
     }
 
     @Override
@@ -59,7 +61,7 @@ public class EventServiceImpl implements EventService {
         log.info("Received request at EventService to delete event with ID : {}", eventId);
         Optional<Event> myEvent =  eventRepository.deleteById(eventId);
         if(myEvent.isEmpty()){
-            log.error("No event found with the ID : {} to delete", eventId);
+            log.warn("No event found with the ID : {} to delete", eventId);
             throw new EventNotFoundException("No Event found with the ID : "+eventId);
         }
         return myEvent.get();
@@ -67,18 +69,18 @@ public class EventServiceImpl implements EventService {
 
     @Override
     public Event updateEvent(UUID eventId, EventReqDTO eventReqDTO){
-        log.info("Received request at EventService to update event with ID : {} with following details : venueId : {}, eventName : {}, eventCapacity : {}, timeAndDate : {} ", eventId,eventReqDTO.getVenueId(),eventReqDTO.getEventName(),eventReqDTO.getEventCapacity(),eventReqDTO.getTimeAndDate());
+        log.info("Updating Event, EventID : {} ", eventId);
         Event event = getEventById(eventId);
         if (!eventReqDTO.getTimeAndDate().equals(event.getDateAndTime()) && eventReqDTO.getTimeAndDate().isBefore(Instant.now())) {
-            log.error("UPDATE_EVENT , Event time and date cannot be in the past. Provided time: {}", eventReqDTO.getTimeAndDate());
+            log.warn("UPDATE_EVENT , Event time and date cannot be in the past. Provided time: {}", eventReqDTO.getTimeAndDate());
             throw new BadRequestException("Event time and date cannot be in the past.");
         }
         event.setEventCapacity(eventReqDTO.getEventCapacity());
         event.setEventName(eventReqDTO.getEventName());
         event.setVenueId(eventReqDTO.getVenueId());
         event.setDateAndTime(eventReqDTO.getTimeAndDate());
-        log.info("Event Update Processing is done at the service layer, sent to Repository Layer with eventID {}",event.getEventId());
         eventRepository.saveEvent(event);
+        log.info("Event Updated Successfully, eventID : {}",event.getEventId());
         return event;
     }
 }

@@ -23,7 +23,7 @@ public class EventController {
 
     @PostMapping
     public ResponseEntity<Map<String,Object>> saveEvent(@Valid @RequestBody EventReqDTO eventReqDTO){
-        log.info("Received saveEvent request at EventController with the following details , venueId {} and eventName {} " ,eventReqDTO.getVenueId(), eventReqDTO.getEventName());
+        log.info("Received request to create event. venueId={}, eventName={} " ,eventReqDTO.getVenueId(), eventReqDTO.getEventName());
         Map<String,Object> response = new HashMap<>();
         response.put("apiStatus","Success");
         response.put("event",eventService.createEvent(eventReqDTO));
@@ -32,7 +32,7 @@ public class EventController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Map<String,Object>> findById(@PathVariable("id")UUID id){
-        log.info("Received findById request at EventController with eventId {} " ,id);
+        log.info("Received request to find event by ID. eventId={} " ,id);
         Event event = eventService.getEventById(id);
         Map<String,Object> response = new HashMap<>();
         response.put("apiStatus","Success");
@@ -42,7 +42,7 @@ public class EventController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Map<String,Object>> deleteById(@PathVariable("id") UUID id){
-        log.info("Received deleteById request at EventController with eventId {} " ,id);
+        log.info("Received request to delete event by ID. eventId={} " ,id);
         Map<String,Object> response = new HashMap<>();
         response.put("apiStatus","Success");
         response.put("event",eventService.deleteEvent(id));
@@ -51,7 +51,7 @@ public class EventController {
 
     @GetMapping
     public ResponseEntity<Map<String, Object>> findAllEvents(){
-        log.info("Received findAllEvents request at EventController");
+        log.info("Received request to find all events.");
         Map<String,Object> response = new HashMap<>();
         response.put("apiStatus","Success");
         response.put("events",eventService.getAllEvents());
@@ -60,7 +60,7 @@ public class EventController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Map<String,Object>> updateEvent(@PathVariable("id") UUID id,@Valid @RequestBody EventReqDTO eventReqDTO){
-        log.info("Received updateEvent request at EventController with eventId {} and eventName {} " ,id, eventReqDTO.getEventName());
+        log.info("Received request to update event. eventId={} " ,id);
         Map<String,Object> response = new HashMap<>();
         response.put("apiStatus","Success");
         response.put("event",eventService.updateEvent(id,eventReqDTO));
