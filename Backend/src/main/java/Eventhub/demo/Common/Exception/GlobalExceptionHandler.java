@@ -24,6 +24,12 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatusCode.valueOf(404)).body(map);
     }
 
+    @ExceptionHandler(VenueNotFoundException.class)
+    public ResponseEntity<Map<String,Object>> handleVenueNotFoundException(VenueNotFoundException venueNotFoundException){
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",venueNotFoundException.getMessage());
+        return ResponseEntity.status(HttpStatusCode.valueOf(404)).body(map);
+    }
+
     @ExceptionHandler(BadRequestException.class)
     public ResponseEntity<Map<String,Object>> handleIllegalArgumentException(BadRequestException exception){
         log.warn("IllegalArgumentException , error: {}",exception.getMessage());
