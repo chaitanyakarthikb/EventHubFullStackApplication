@@ -3,6 +3,7 @@ package Eventhub.demo.Venue.Controller;
 import Eventhub.demo.Venue.DTO.VenueReqDTO;
 import Eventhub.demo.Venue.Entity.Venue;
 import Eventhub.demo.Venue.Service.VenueService;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
@@ -33,7 +34,7 @@ public class VenueController {
     }
 
     @PostMapping()
-    public ResponseEntity<Venue> createVenue(@RequestBody VenueReqDTO venueReqDTO){
+    public ResponseEntity<Venue> createVenue(@RequestBody @Valid VenueReqDTO venueReqDTO){
         log.info("Request received to createVenue {} ", venueReqDTO);
         return ResponseEntity.status(HttpStatusCode.valueOf(201)).body(venueService.createVenue(venueReqDTO));
     }
@@ -45,7 +46,7 @@ public class VenueController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Venue> updateVenue(@PathVariable UUID id, @RequestBody VenueReqDTO venueReqDTO){
+    public ResponseEntity<Venue> updateVenue(@PathVariable UUID id, @RequestBody @Valid VenueReqDTO venueReqDTO){
         log.info("Request received to updateVenue {} ", id);
         return ResponseEntity.status(HttpStatusCode.valueOf(200)).body(venueService.updateVenue(id,venueReqDTO));
     }
