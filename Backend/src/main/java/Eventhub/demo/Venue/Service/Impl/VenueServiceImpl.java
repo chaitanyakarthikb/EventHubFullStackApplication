@@ -43,7 +43,7 @@ public class VenueServiceImpl implements VenueService {
         venue.setAddress(venueReqDTO.getAddress());
         venue.setMaxCapacity(venueReqDTO.getMaxCapacity());
         Venue venueCreated = venueRepository.createVenue(venue);
-        log.info("Venue Created : {}",venueCreated);
+        log.info("Venue Created : {}",venueCreated.toString());
         return venueCreated;
     }
 

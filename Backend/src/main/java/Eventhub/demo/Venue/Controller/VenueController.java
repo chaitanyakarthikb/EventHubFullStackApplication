@@ -35,7 +35,7 @@ public class VenueController {
 
     @PostMapping()
     public ResponseEntity<Venue> createVenue(@RequestBody @Valid VenueReqDTO venueReqDTO){
-        log.info("Request received to createVenue {} ", venueReqDTO);
+        log.info("Request received to createVenue {} ", venueReqDTO.toString());
         return ResponseEntity.status(HttpStatusCode.valueOf(201)).body(venueService.createVenue(venueReqDTO));
     }
 
