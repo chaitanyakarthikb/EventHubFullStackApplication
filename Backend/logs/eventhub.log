@@ -1,0 +1,882 @@
+2026-11-03T11:59:35.911+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 8 class path changes (0 additions, 8 deletions, 0 modifications)
+2026-11-03T11:59:36.088+05:30  INFO 35564 --- [demo] [Thread-83] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T11:59:36.116+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T11:59:36.518+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T11:59:36.519+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T11:59:36.520+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T11:59:36.735+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T11:59:36.738+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T11:59:36.739+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T11:59:36.762+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 236 ms
+2026-11-03T11:59:36.935+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T11:59:36.938+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.469 seconds (process running for 83553.358)
+2026-11-03T11:59:36.939+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T11:59:36.941+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T11:59:39.381+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 8 class path changes (8 additions, 0 deletions, 0 modifications)
+2026-11-03T11:59:39.383+05:30  INFO 35564 --- [demo] [Thread-90] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T11:59:39.389+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T11:59:39.472+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T11:59:39.472+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T11:59:39.473+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T11:59:39.622+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T11:59:39.623+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T11:59:39.623+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T11:59:39.638+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 163 ms
+2026-11-03T11:59:39.700+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T11:59:39.701+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.253 seconds (process running for 83556.121)
+2026-11-03T11:59:39.702+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T11:59:39.703+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:02:03.894+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
+2026-11-03T12:02:03.896+05:30  INFO 35564 --- [demo] [Thread-94] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:02:03.906+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:02:04.021+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:02:04.022+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:02:04.022+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:02:04.259+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:02:04.262+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:02:04.262+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:02:04.291+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 265 ms
+2026-11-03T12:02:04.308+05:30  WARN 35564 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventController' defined in file [C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes\Eventhub\demo\Event\Controller\EventController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'Eventhub.demo.Event.Service.EventService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-11-03T12:02:04.309+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-11-03T12:02:04.319+05:30  INFO 35564 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-03T12:02:04.323+05:30 ERROR 35564 --- [demo] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in Eventhub.demo.Event.Controller.EventController required a bean of type 'Eventhub.demo.Event.Service.EventService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'Eventhub.demo.Event.Service.EventService' in your configuration.
+
+2026-11-03T12:02:07.252+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:02:07.253+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:02:07.253+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:02:07.458+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:02:07.459+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:02:07.459+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:02:07.479+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 225 ms
+2026-11-03T12:02:07.557+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:02:07.559+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.334 seconds (process running for 83703.979)
+2026-11-03T12:02:07.560+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:02:07.561+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:04:26.902+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2026-11-03T12:04:26.905+05:30  INFO 35564 --- [demo] [Thread-98] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:04:26.937+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:04:26.987+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:04:26.988+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:04:26.988+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:04:27.065+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:04:27.067+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:04:27.067+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:04:27.075+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 85 ms
+2026-11-03T12:04:27.120+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:04:27.122+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.149 seconds (process running for 83843.541)
+2026-11-03T12:04:27.122+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:04:27.122+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:09:52.518+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:09:52.519+05:30  INFO 35564 --- [demo] [Thread-105] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:09:52.529+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:09:52.660+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:09:52.660+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:09:52.660+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:09:52.975+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:09:52.978+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:09:52.979+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:09:53.010+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 346 ms
+2026-11-03T12:09:53.178+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:09:53.182+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.565 seconds (process running for 84169.601)
+2026-11-03T12:09:53.184+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:09:53.184+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:09:54.586+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2026-11-03T12:09:54.589+05:30  INFO 35564 --- [demo] [Thread-109] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:09:54.596+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:09:54.677+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:09:54.677+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:09:54.677+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:09:54.761+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:09:54.762+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:09:54.762+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:09:54.769+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 90 ms
+2026-11-03T12:09:54.802+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:09:54.805+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.168 seconds (process running for 84171.224)
+2026-11-03T12:09:54.805+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:09:54.807+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:10:33.784+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:10:33.786+05:30  INFO 35564 --- [demo] [Thread-113] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:10:33.799+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:10:33.915+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:10:33.916+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:10:33.916+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:10:34.248+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:10:34.251+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:10:34.251+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:10:34.284+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 366 ms
+2026-11-03T12:10:34.445+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:10:34.448+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.561 seconds (process running for 84210.868)
+2026-11-03T12:10:34.450+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:10:34.451+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:10:35.853+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-11-03T12:10:35.855+05:30  INFO 35564 --- [demo] [Thread-117] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:10:35.867+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:10:35.938+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:10:35.939+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:10:35.939+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:10:36.113+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:10:36.114+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:10:36.114+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:10:36.129+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 189 ms
+2026-11-03T12:10:36.172+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:10:36.174+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.258 seconds (process running for 84212.593)
+2026-11-03T12:10:36.175+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:10:36.175+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:10:38.644+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:10:38.646+05:30  INFO 35564 --- [demo] [Thread-121] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:10:38.657+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:10:38.798+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:10:38.799+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:10:38.799+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:10:39.041+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:10:39.042+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:10:39.042+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:10:39.094+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 293 ms
+2026-11-03T12:10:39.215+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:10:39.218+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.464 seconds (process running for 84215.637)
+2026-11-03T12:10:39.220+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:10:39.220+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:10:41.652+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-11-03T12:10:41.654+05:30  INFO 35564 --- [demo] [Thread-125] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:10:41.661+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:10:41.710+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:10:41.710+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:10:41.710+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:10:41.781+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:10:41.782+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:10:41.782+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:10:41.788+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 76 ms
+2026-11-03T12:10:41.820+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:10:41.821+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.123 seconds (process running for 84218.241)
+2026-11-03T12:10:41.822+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:10:41.822+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:10:45.292+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:10:45.293+05:30  INFO 35564 --- [demo] [Thread-129] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:10:45.303+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:10:45.431+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:10:45.431+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:10:45.431+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:10:45.689+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:10:45.690+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:10:45.690+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:10:45.716+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 281 ms
+2026-11-03T12:10:45.842+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:10:45.846+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.453 seconds (process running for 84222.266)
+2026-11-03T12:10:45.848+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:10:45.848+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:10:47.255+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-11-03T12:10:47.256+05:30  INFO 35564 --- [demo] [Thread-133] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:10:47.262+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:10:47.318+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:10:47.319+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:10:47.319+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:10:47.449+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:10:47.449+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:10:47.449+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:10:47.461+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 141 ms
+2026-11-03T12:10:47.520+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:10:47.522+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.218 seconds (process running for 84223.942)
+2026-11-03T12:10:47.523+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:10:47.524+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:10:54.044+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:10:54.046+05:30  INFO 35564 --- [demo] [Thread-137] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:10:54.058+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:10:54.180+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:10:54.180+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:10:54.181+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:10:54.449+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:10:54.451+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:10:54.451+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:10:54.486+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 301 ms
+2026-11-03T12:10:54.610+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:10:54.613+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.473 seconds (process running for 84231.033)
+2026-11-03T12:10:54.615+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:10:54.615+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:10:56.007+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-11-03T12:10:56.008+05:30  INFO 35564 --- [demo] [Thread-141] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:10:56.015+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:10:56.073+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:10:56.074+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:10:56.074+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:10:56.156+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:10:56.156+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:10:56.156+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:10:56.163+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 88 ms
+2026-11-03T12:10:56.210+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:10:56.212+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.152 seconds (process running for 84232.632)
+2026-11-03T12:10:56.213+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:10:56.213+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:11:03.717+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:11:03.719+05:30  INFO 35564 --- [demo] [Thread-145] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:11:03.732+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:11:03.869+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:11:03.870+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:11:03.870+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:11:04.132+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:11:04.133+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:11:04.133+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:11:04.166+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 292 ms
+2026-11-03T12:11:04.294+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:11:04.297+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.466 seconds (process running for 84240.716)
+2026-11-03T12:11:04.299+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:11:04.299+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:11:06.716+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-11-03T12:11:06.718+05:30  INFO 35564 --- [demo] [Thread-149] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:11:06.721+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:11:06.798+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:11:06.799+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:11:06.799+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:11:06.913+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:11:06.915+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:11:06.915+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:11:06.928+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 127 ms
+2026-11-03T12:11:06.992+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:11:06.994+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.218 seconds (process running for 84243.414)
+2026-11-03T12:11:06.995+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:11:06.995+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:12:32.221+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:12:32.222+05:30  INFO 35564 --- [demo] [Thread-153] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:12:32.229+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:12:32.338+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:12:32.339+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:12:32.339+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:12:32.624+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:12:32.627+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:12:32.627+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:12:32.648+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 306 ms
+2026-11-03T12:12:32.786+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:12:32.789+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.488 seconds (process running for 84329.21)
+2026-11-03T12:12:32.791+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:12:32.796+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:15:28.265+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2026-11-03T12:15:28.267+05:30  INFO 35564 --- [demo] [Thread-157] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:15:28.274+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:15:28.364+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:15:28.364+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:15:28.364+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:15:28.545+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:15:28.547+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:15:28.548+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:15:28.560+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 192 ms
+2026-11-03T12:15:28.649+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:15:28.652+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.312 seconds (process running for 84505.071)
+2026-11-03T12:15:28.653+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:15:28.653+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:15:34.132+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:15:34.134+05:30  INFO 35564 --- [demo] [Thread-161] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:15:34.149+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:15:34.286+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:15:34.286+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:15:34.286+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:15:34.575+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:15:34.576+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:15:34.576+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:15:34.602+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 313 ms
+2026-11-03T12:15:34.721+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:15:34.725+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.479 seconds (process running for 84511.145)
+2026-11-03T12:15:34.728+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:15:34.729+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:15:37.155+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-11-03T12:15:37.156+05:30  INFO 35564 --- [demo] [Thread-165] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:15:37.164+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:15:37.257+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:15:37.257+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:15:37.257+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:15:37.357+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:15:37.357+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:15:37.357+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:15:37.371+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 113 ms
+2026-11-03T12:15:37.445+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:15:37.447+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.205 seconds (process running for 84513.867)
+2026-11-03T12:15:37.448+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:15:37.448+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:15:44.939+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:15:44.940+05:30  INFO 35564 --- [demo] [Thread-169] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:15:44.946+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:15:45.001+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:15:45.001+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:15:45.002+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:15:45.128+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:15:45.128+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:15:45.128+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:15:45.138+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 135 ms
+2026-11-03T12:15:45.179+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:15:45.180+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.196 seconds (process running for 84521.6)
+2026-11-03T12:15:45.181+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:15:45.181+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:15:46.608+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-11-03T12:15:46.609+05:30  INFO 35564 --- [demo] [Thread-173] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:15:46.616+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:15:46.719+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:15:46.719+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:15:46.719+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:15:46.909+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:15:46.909+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:15:46.909+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:15:46.925+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 203 ms
+2026-11-03T12:15:47.023+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:15:47.025+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.337 seconds (process running for 84523.445)
+2026-11-03T12:15:47.026+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:15:47.027+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:15:56.584+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:15:56.586+05:30  INFO 35564 --- [demo] [Thread-177] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:15:56.592+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:15:56.752+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:15:56.753+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:15:56.753+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:15:57.014+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:15:57.014+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:15:57.014+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:15:57.028+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 272 ms
+2026-11-03T12:15:57.075+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:15:57.076+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.393 seconds (process running for 84533.496)
+2026-11-03T12:15:57.077+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:15:57.077+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:15:58.484+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-11-03T12:15:58.486+05:30  INFO 35564 --- [demo] [Thread-181] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:15:58.491+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:15:58.544+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:15:58.544+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:15:58.544+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:15:58.611+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:15:58.612+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:15:58.612+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:15:58.620+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 75 ms
+2026-11-03T12:15:58.657+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:15:58.658+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.128 seconds (process running for 84535.078)
+2026-11-03T12:15:58.658+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:15:58.658+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:16:10.179+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T12:16:10.180+05:30  INFO 35564 --- [demo] [Thread-185] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:16:10.187+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:16:10.313+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:16:10.313+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:16:10.313+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:16:10.541+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:16:10.542+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:16:10.542+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:16:10.569+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 253 ms
+2026-11-03T12:16:10.688+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:16:10.691+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.414 seconds (process running for 84547.11)
+2026-11-03T12:16:10.692+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:16:10.692+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T12:16:13.181+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-11-03T12:16:13.182+05:30  INFO 35564 --- [demo] [Thread-189] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T12:16:13.188+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T12:16:13.331+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T12:16:13.332+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T12:16:13.332+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T12:16:13.611+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T12:16:13.612+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T12:16:13.612+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T12:16:13.640+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 304 ms
+2026-11-03T12:16:13.762+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T12:16:13.765+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.478 seconds (process running for 84550.185)
+2026-11-03T12:16:13.767+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T12:16:13.767+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T14:48:16.763+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2026-11-03T14:48:16.850+05:30  INFO 35564 --- [demo] [Thread-193] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T14:48:16.909+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T14:48:17.518+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T14:48:17.518+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T14:48:17.519+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T14:48:17.879+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T14:48:17.886+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T14:48:17.887+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T14:48:17.926+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 402 ms
+2026-11-03T14:48:18.183+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T14:48:18.189+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.732 seconds (process running for 93674.676)
+2026-11-03T14:48:18.191+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T14:48:18.191+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T14:48:19.611+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2026-11-03T14:48:19.612+05:30  INFO 35564 --- [demo] [Thread-197] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T14:48:19.619+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T14:48:19.719+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T14:48:19.719+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T14:48:19.720+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T14:48:19.967+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T14:48:19.968+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T14:48:19.968+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T14:48:19.996+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 274 ms
+2026-11-03T14:48:20.111+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T14:48:20.113+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.422 seconds (process running for 93676.601)
+2026-11-03T14:48:20.115+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T14:48:20.116+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T14:54:24.084+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2026-11-03T14:54:24.086+05:30  INFO 35564 --- [demo] [Thread-201] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T14:54:24.094+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T14:54:24.211+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T14:54:24.212+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T14:54:24.212+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T14:54:24.550+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T14:54:24.553+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T14:54:24.554+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T14:54:24.582+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 365 ms
+2026-11-03T14:54:24.766+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T14:54:24.770+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.604 seconds (process running for 94041.257)
+2026-11-03T14:54:24.772+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T14:54:24.773+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T14:54:27.220+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2026-11-03T14:54:27.222+05:30  INFO 35564 --- [demo] [Thread-205] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T14:54:27.232+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T14:54:27.378+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T14:54:27.378+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T14:54:27.379+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T14:54:27.628+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T14:54:27.629+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T14:54:27.629+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T14:54:27.656+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 274 ms
+2026-11-03T14:54:27.767+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T14:54:27.770+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.427 seconds (process running for 94044.257)
+2026-11-03T14:54:27.771+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T14:54:27.772+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:14:54.705+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 4 deletions, 0 modifications)
+2026-11-03T15:14:54.722+05:30  INFO 35564 --- [demo] [Thread-209] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T15:14:54.736+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T15:14:55.026+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:14:55.027+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:14:55.027+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:14:55.312+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:14:55.317+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:14:55.317+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:14:55.349+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 316 ms
+2026-11-03T15:14:55.599+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T15:14:55.602+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.617 seconds (process running for 95272.089)
+2026-11-03T15:14:55.604+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T15:14:55.604+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:14:58.050+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2026-11-03T15:14:58.051+05:30  INFO 35564 --- [demo] [Thread-213] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T15:14:58.058+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T15:14:58.136+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:14:58.136+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:14:58.136+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:14:58.272+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:14:58.272+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:14:58.273+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:14:58.286+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 148 ms
+2026-11-03T15:14:58.336+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T15:14:58.338+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.222 seconds (process running for 95274.825)
+2026-11-03T15:14:58.338+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T15:14:58.339+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:30:16.986+05:30  INFO 35564 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 4 deletions, 0 modifications)
+2026-11-03T15:30:16.989+05:30  INFO 35564 --- [demo] [Thread-217] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T15:30:17.004+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T15:30:17.152+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 35564 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:30:17.153+05:30 DEBUG 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:30:17.153+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:30:17.496+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:30:17.501+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:30:17.501+05:30  INFO 35564 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:30:17.535+05:30  INFO 35564 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 378 ms
+2026-11-03T15:30:17.729+05:30  INFO 35564 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T15:30:17.734+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.623 seconds (process running for 96194.221)
+2026-11-03T15:30:17.735+05:30  INFO 35564 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T15:30:17.735+05:30  INFO 35564 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:40:16.441+05:30  INFO 35564 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T15:40:16.448+05:30  INFO 35564 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T15:40:20.407+05:30  INFO 3796 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 3796 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:40:20.409+05:30 DEBUG 3796 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:40:20.410+05:30  INFO 3796 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:40:20.464+05:30  INFO 3796 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-03T15:40:20.464+05:30  INFO 3796 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-03T15:40:21.285+05:30  INFO 3796 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:40:21.295+05:30  INFO 3796 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:40:21.296+05:30  INFO 3796 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:40:21.324+05:30  INFO 3796 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 859 ms
+2026-11-03T15:40:21.531+05:30  WARN 3796 --- [demo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'venueController' method 
+Eventhub.demo.Venue.Controller.VenueController#createVenue(VenueReqDTO)
+to {POST [/api/v1/events]}: There is already 'eventController' bean method
+Eventhub.demo.Event.Controller.EventController#saveEvent(EventReqDTO) mapped.
+2026-11-03T15:40:21.534+05:30  INFO 3796 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-11-03T15:40:21.544+05:30  INFO 3796 --- [demo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-11-03T15:40:21.552+05:30 ERROR 3796 --- [demo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'venueController' method 
+Eventhub.demo.Venue.Controller.VenueController#createVenue(VenueReqDTO)
+to {POST [/api/v1/events]}: There is already 'eventController' bean method
+Eventhub.demo.Event.Controller.EventController#saveEvent(EventReqDTO) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.9.jar:7.0.9]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.1.jar:4.1.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.1.jar:4.1.1]
+	at Eventhub.demo.Application.main(Application.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.1.jar:4.1.1]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'venueController' method 
+Eventhub.demo.Venue.Controller.VenueController#createVenue(VenueReqDTO)
+to {POST [/api/v1/events]}: There is already 'eventController' bean method
+Eventhub.demo.Event.Controller.EventController#saveEvent(EventReqDTO) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:644) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:604) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:327) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:459) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:80) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:294) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:987) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:292) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:261) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:220) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:208) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:158) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862) ~[spring-beans-7.0.9.jar:7.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811) ~[spring-beans-7.0.9.jar:7.0.9]
+	... 21 common frames omitted
+
+2026-11-03T15:41:31.903+05:30  INFO 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 16440 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:41:31.905+05:30 DEBUG 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:41:31.905+05:30  INFO 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:41:31.937+05:30  INFO 16440 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-03T15:41:31.937+05:30  INFO 16440 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-03T15:41:32.532+05:30  INFO 16440 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:41:32.540+05:30  INFO 16440 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:41:32.541+05:30  INFO 16440 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:41:32.595+05:30  INFO 16440 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 658 ms
+2026-11-03T15:41:32.911+05:30  INFO 16440 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T15:41:32.916+05:30  INFO 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 1.31 seconds (process running for 1.812)
+2026-11-03T15:41:32.920+05:30  INFO 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:47:32.424+05:30  INFO 16440 --- [demo] [http-nio-9514-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T15:47:32.425+05:30  INFO 16440 --- [demo] [http-nio-9514-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T15:47:32.428+05:30  INFO 16440 --- [demo] [http-nio-9514-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-11-03T15:47:32.467+05:30 ERROR 16440 --- [demo] [http-nio-9514-exec-2] E.d.C.Exception.GlobalExceptionHandler   : Unexpected error occurred
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:260) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:432) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:376) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:116) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:544) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1157) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:951) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[na:na]
+
+2026-11-03T15:47:32.560+05:30  WARN 16440 --- [demo] [http-nio-9514-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-11-03T15:47:51.908+05:30  INFO 16440 --- [demo] [http-nio-9514-exec-4] E.demo.Venue.Controller.VenueController  : Request received to getAllVenues
+2026-11-03T15:48:38.447+05:30  INFO 16440 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-11-03T15:48:38.457+05:30  INFO 16440 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T15:48:38.471+05:30  INFO 16440 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T15:48:38.620+05:30  INFO 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 16440 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:48:38.621+05:30 DEBUG 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:48:38.622+05:30  INFO 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:48:39.076+05:30  INFO 16440 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:48:39.079+05:30  INFO 16440 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:48:39.081+05:30  INFO 16440 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:48:39.118+05:30  INFO 16440 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 490 ms
+2026-11-03T15:48:39.355+05:30  INFO 16440 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T15:48:39.361+05:30  INFO 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.807 seconds (process running for 428.256)
+2026-11-03T15:48:39.365+05:30  INFO 16440 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T15:48:39.365+05:30  INFO 16440 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:48:41.476+05:30  INFO 16440 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T15:48:41.481+05:30  INFO 16440 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T15:48:43.657+05:30  INFO 39096 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 39096 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:48:43.660+05:30 DEBUG 39096 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:48:43.661+05:30  INFO 39096 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:48:43.695+05:30  INFO 39096 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-03T15:48:43.696+05:30  INFO 39096 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-03T15:48:44.350+05:30  INFO 39096 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:48:44.361+05:30  INFO 39096 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:48:44.361+05:30  INFO 39096 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:48:44.387+05:30  INFO 39096 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 691 ms
+2026-11-03T15:48:44.687+05:30  INFO 39096 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T15:48:44.693+05:30  INFO 39096 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 1.377 seconds (process running for 1.998)
+2026-11-03T15:48:44.696+05:30  INFO 39096 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:48:51.776+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T15:48:51.777+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T15:48:51.780+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-11-03T15:48:51.833+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-1] E.demo.Venue.Controller.VenueController  : Request received to getAllVenues
+2026-11-03T15:50:20.851+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-4] E.demo.Venue.Controller.VenueController  : Request received to createVenue Eventhub.demo.Venue.DTO.VenueReqDTO@38685e6f 
+2026-11-03T15:50:20.853+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-4] E.d.Venue.Service.Impl.VenueServiceImpl  : Venue Created : Eventhub.demo.Venue.Entity.Venue@34b6b928
+2026-11-03T15:51:00.819+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-7] E.demo.Venue.Controller.VenueController  : Request received to getAllVenues
+2026-11-03T15:51:09.441+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-6] E.demo.Venue.Controller.VenueController  : Request received to getVenueById ab9e0b7c-46a6-4ad7-bdb3-07933db08150 
+2026-11-03T15:51:09.470+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-6] E.d.Venue.Service.Impl.VenueServiceImpl  : Fetching venue with ID: ab9e0b7c-46a6-4ad7-bdb3-07933db08150
+2026-11-03T15:51:39.527+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-8] E.demo.Venue.Controller.VenueController  : Request received to deleteVenue ab9e0b7c-46a6-4ad7-bdb3-07933db08150 
+2026-11-03T15:51:39.529+05:30  INFO 39096 --- [demo] [http-nio-9514-exec-8] E.d.Venue.Service.Impl.VenueServiceImpl  : Deleting venue with ID: ab9e0b7c-46a6-4ad7-bdb3-07933db08150
+2026-11-03T15:51:39.529+05:30  WARN 39096 --- [demo] [http-nio-9514-exec-8] E.d.Venue.Service.Impl.VenueServiceImpl  : Venue not found with the ID : ab9e0b7c-46a6-4ad7-bdb3-07933db08150
+2026-11-03T15:51:39.532+05:30 ERROR 39096 --- [demo] [http-nio-9514-exec-8] E.d.C.Exception.GlobalExceptionHandler   : Unexpected error occurred
+
+Eventhub.demo.Common.Exception.VenueNotFoundException: Venue not found with the ID : ab9e0b7c-46a6-4ad7-bdb3-07933db08150
+	at Eventhub.demo.Venue.Service.Impl.VenueServiceImpl.deleteVenue(VenueServiceImpl.java:56) ~[classes/:na]
+	at Eventhub.demo.Venue.Controller.VenueController.deleteVenue(VenueController.java:44) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:925) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:651) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[na:na]
+
+2026-11-03T15:51:39.558+05:30  WARN 39096 --- [demo] [http-nio-9514-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [Eventhub.demo.Common.Exception.VenueNotFoundException: Venue not found with the ID : ab9e0b7c-46a6-4ad7-bdb3-07933db08150]
+2026-11-03T15:55:09.328+05:30  INFO 39096 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T15:55:09.332+05:30  INFO 39096 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T15:55:12.447+05:30  INFO 43644 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 43644 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:55:12.449+05:30 DEBUG 43644 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:55:12.450+05:30  INFO 43644 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:55:12.484+05:30  INFO 43644 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-03T15:55:12.485+05:30  INFO 43644 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-03T15:55:13.181+05:30  INFO 43644 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:55:13.193+05:30  INFO 43644 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:55:13.194+05:30  INFO 43644 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:55:13.231+05:30  INFO 43644 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 745 ms
+2026-11-03T15:55:13.568+05:30  INFO 43644 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T15:55:13.572+05:30  INFO 43644 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 1.45 seconds (process running for 1.933)
+2026-11-03T15:55:13.574+05:30  INFO 43644 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:55:17.792+05:30  INFO 43644 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T15:55:17.804+05:30  INFO 43644 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T15:55:20.341+05:30  INFO 48084 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 48084 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:55:20.343+05:30 DEBUG 48084 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:55:20.344+05:30  INFO 48084 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:55:20.385+05:30  INFO 48084 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-03T15:55:20.386+05:30  INFO 48084 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-03T15:55:21.217+05:30  INFO 48084 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:55:21.232+05:30  INFO 48084 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:55:21.232+05:30  INFO 48084 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:55:21.263+05:30  INFO 48084 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 877 ms
+2026-11-03T15:55:21.639+05:30  INFO 48084 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T15:55:21.645+05:30  INFO 48084 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 1.728 seconds (process running for 2.762)
+2026-11-03T15:55:21.650+05:30  INFO 48084 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:55:28.245+05:30  INFO 48084 --- [demo] [http-nio-9514-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T15:55:28.246+05:30  INFO 48084 --- [demo] [http-nio-9514-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T15:55:28.250+05:30  INFO 48084 --- [demo] [http-nio-9514-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-11-03T15:55:28.595+05:30  INFO 48084 --- [demo] [http-nio-9514-exec-2] E.demo.Venue.Controller.VenueController  : Request received to createVenue Eventhub.demo.Venue.DTO.VenueReqDTO@6eea4e49 
+2026-11-03T15:55:28.601+05:30  INFO 48084 --- [demo] [http-nio-9514-exec-2] E.d.Venue.Service.Impl.VenueServiceImpl  : Venue Created : Eventhub.demo.Venue.Entity.Venue@11258f13
+2026-11-03T15:55:41.852+05:30  INFO 48084 --- [demo] [http-nio-9514-exec-9] E.demo.Venue.Controller.VenueController  : Request received to deleteVenue 4504875e-c5b7-431e-b086-9f5755b44890 
+2026-11-03T15:55:41.854+05:30  INFO 48084 --- [demo] [http-nio-9514-exec-9] E.d.Venue.Service.Impl.VenueServiceImpl  : Deleting venue with ID: 4504875e-c5b7-431e-b086-9f5755b44890
+2026-11-03T15:57:03.954+05:30  WARN 48084 --- [demo] [http-nio-9514-exec-9] E.d.Venue.Service.Impl.VenueServiceImpl  : Venue not found with the ID : 4504875e-c5b7-431e-b086-9f5755b44890
+2026-11-03T15:57:03.958+05:30 ERROR 48084 --- [demo] [http-nio-9514-exec-9] E.d.C.Exception.GlobalExceptionHandler   : Unexpected error occurred
+
+Eventhub.demo.Common.Exception.VenueNotFoundException: Venue not found with the ID : 4504875e-c5b7-431e-b086-9f5755b44890
+	at Eventhub.demo.Venue.Service.Impl.VenueServiceImpl.deleteVenue(VenueServiceImpl.java:56) ~[classes/:na]
+	at Eventhub.demo.Venue.Controller.VenueController.deleteVenue(VenueController.java:44) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:925) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:651) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.9.jar:7.0.9]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.24.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.9.jar:7.0.9]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:535) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:406) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1307) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2036) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:949) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:483) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.24.jar:11.0.24]
+	at java.base/java.lang.Thread.run(Thread.java:1516) ~[na:na]
+
+2026-11-03T15:57:03.970+05:30  WARN 48084 --- [demo] [http-nio-9514-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [Eventhub.demo.Common.Exception.VenueNotFoundException: Venue not found with the ID : 4504875e-c5b7-431e-b086-9f5755b44890]
+2026-11-03T15:57:04.008+05:30  INFO 48084 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T15:57:04.017+05:30  INFO 48084 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T15:57:07.818+05:30  INFO 39288 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 39288 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T15:57:07.820+05:30 DEBUG 39288 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T15:57:07.821+05:30  INFO 39288 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T15:57:07.857+05:30  INFO 39288 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-03T15:57:07.857+05:30  INFO 39288 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-03T15:57:08.570+05:30  INFO 39288 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T15:57:08.582+05:30  INFO 39288 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T15:57:08.582+05:30  INFO 39288 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T15:57:08.613+05:30  INFO 39288 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 756 ms
+2026-11-03T15:57:08.991+05:30  INFO 39288 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T15:57:09.000+05:30  INFO 39288 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 1.618 seconds (process running for 2.367)
+2026-11-03T15:57:09.004+05:30  INFO 39288 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T15:57:18.945+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T15:57:18.946+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T15:57:18.949+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-11-03T15:57:19.206+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-2] E.demo.Venue.Controller.VenueController  : Request received to createVenue Eventhub.demo.Venue.DTO.VenueReqDTO@5c6f4415 
+2026-11-03T15:57:19.213+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-2] E.d.Venue.Service.Impl.VenueServiceImpl  : Venue Created : Eventhub.demo.Venue.Entity.Venue@2c6f864f
+2026-11-03T15:57:35.659+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-3] E.demo.Venue.Controller.VenueController  : Request received to getVenueById ee531799-5926-4796-a0e0-ae2f1ec883ca 
+2026-11-03T15:57:35.663+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-3] E.d.Venue.Service.Impl.VenueServiceImpl  : Fetching venue with ID: ee531799-5926-4796-a0e0-ae2f1ec883ca
+2026-11-03T15:57:39.119+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-5] E.demo.Venue.Controller.VenueController  : Request received to getAllVenues
+2026-11-03T15:58:00.655+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-7] E.demo.Venue.Controller.VenueController  : Request received to deleteVenue ee531799-5926-4796-a0e0-ae2f1ec883ca 
+2026-11-03T15:58:00.656+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-7] E.d.Venue.Service.Impl.VenueServiceImpl  : Deleting venue with ID: ee531799-5926-4796-a0e0-ae2f1ec883ca
+2026-11-03T15:58:12.144+05:30  INFO 39288 --- [demo] [http-nio-9514-exec-4] E.demo.Venue.Controller.VenueController  : Request received to getAllVenues
+2026-11-03T16:09:59.289+05:30  INFO 39288 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T16:09:59.308+05:30  INFO 39288 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T16:10:09.383+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 40664 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T16:10:09.391+05:30 DEBUG 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T16:10:09.393+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T16:10:09.506+05:30  INFO 40664 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-03T16:10:09.507+05:30  INFO 40664 --- [demo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-03T16:10:11.069+05:30  INFO 40664 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T16:10:11.091+05:30  INFO 40664 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T16:10:11.092+05:30  INFO 40664 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T16:10:11.161+05:30  INFO 40664 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1652 ms
+2026-11-03T16:10:11.874+05:30  INFO 40664 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T16:10:11.882+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 3.443 seconds (process running for 4.767)
+2026-11-03T16:10:11.888+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T16:10:22.478+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T16:10:22.478+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T16:10:22.480+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-03T16:10:22.646+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-1] E.demo.Venue.Controller.VenueController  : Request received to createVenue Eventhub.demo.Venue.DTO.VenueReqDTO@796ed7df 
+2026-11-03T16:10:22.649+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-1] E.d.Venue.Service.Impl.VenueServiceImpl  : Venue Created : Eventhub.demo.Venue.Entity.Venue@2cd9b2bd
+2026-11-03T16:10:27.078+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-5] E.demo.Venue.Controller.VenueController  : Request received to createVenue Eventhub.demo.Venue.DTO.VenueReqDTO@1491e77e 
+2026-11-03T16:10:27.080+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-5] E.d.Venue.Service.Impl.VenueServiceImpl  : Venue Created : Eventhub.demo.Venue.Entity.Venue@1a561b9c
+2026-11-03T16:10:28.234+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-3] E.demo.Venue.Controller.VenueController  : Request received to createVenue Eventhub.demo.Venue.DTO.VenueReqDTO@3c9d0ea4 
+2026-11-03T16:10:28.235+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-3] E.d.Venue.Service.Impl.VenueServiceImpl  : Venue Created : Eventhub.demo.Venue.Entity.Venue@325af747
+2026-11-03T16:10:31.327+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-8] E.demo.Venue.Controller.VenueController  : Request received to getAllVenues
+2026-11-03T16:10:41.221+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-4] E.demo.Venue.Controller.VenueController  : Request received to getVenueById 34ce525a-c252-4ca8-a0d2-2fac6d56e517 
+2026-11-03T16:10:41.222+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-4] E.d.Venue.Service.Impl.VenueServiceImpl  : Fetching venue with ID: 34ce525a-c252-4ca8-a0d2-2fac6d56e517
+2026-11-03T16:10:48.304+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-6] E.demo.Venue.Controller.VenueController  : Request received to deleteVenue 34ce525a-c252-4ca8-a0d2-2fac6d56e517 
+2026-11-03T16:10:48.304+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-6] E.d.Venue.Service.Impl.VenueServiceImpl  : Deleting venue with ID: 34ce525a-c252-4ca8-a0d2-2fac6d56e517
+2026-11-03T16:10:52.428+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-9] E.demo.Venue.Controller.VenueController  : Request received to getAllVenues
+2026-11-03T16:12:16.370+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-2] E.demo.Venue.Controller.VenueController  : Request received to updateVenue 45f8d4ea-433b-4af2-a21e-ea03f138d839 
+2026-11-03T16:12:16.370+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-2] E.d.Venue.Service.Impl.VenueServiceImpl  : Updating venue with ID : 45f8d4ea-433b-4af2-a21e-ea03f138d839
+2026-11-03T16:12:22.355+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-1] E.demo.Venue.Controller.VenueController  : Request received to getAllVenues
+2026-11-03T16:12:34.384+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-5] E.demo.Venue.Controller.VenueController  : Request received to getVenueById 45f8d4ea-433b-4af2-a21e-ea03f138d839 
+2026-11-03T16:12:34.385+05:30  INFO 40664 --- [demo] [http-nio-9514-exec-5] E.d.Venue.Service.Impl.VenueServiceImpl  : Fetching venue with ID: 45f8d4ea-433b-4af2-a21e-ea03f138d839
+2026-11-03T16:14:38.923+05:30  INFO 40664 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 14 class path changes (0 additions, 13 deletions, 1 modification)
+2026-11-03T16:14:38.928+05:30  INFO 40664 --- [demo] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T16:14:38.937+05:30  INFO 40664 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T16:14:39.040+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 40664 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T16:14:39.041+05:30 DEBUG 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T16:14:39.041+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T16:14:39.310+05:30  INFO 40664 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T16:14:39.311+05:30  INFO 40664 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T16:14:39.312+05:30  INFO 40664 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T16:14:39.335+05:30  INFO 40664 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 291 ms
+2026-11-03T16:14:39.447+05:30  INFO 40664 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T16:14:39.450+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.445 seconds (process running for 272.335)
+2026-11-03T16:14:39.452+05:30  INFO 40664 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T16:14:39.453+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
+2026-11-03T16:14:41.917+05:30  INFO 40664 --- [demo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 13 class path changes (13 additions, 0 deletions, 0 modifications)
+2026-11-03T16:14:41.918+05:30  INFO 40664 --- [demo] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T16:14:41.925+05:30  INFO 40664 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T16:14:42.005+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Starting Application using Java 26.0.1 with PID 40664 (C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\Backend\target\classes started by Chaitanya Karthik in C:\Users\Chaitanya Karthik\Desktop\EventHubFullStackApplication\backend)
+2026-11-03T16:14:42.005+05:30 DEBUG 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-03T16:14:42.006+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T16:14:42.170+05:30  INFO 40664 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9514 (http)
+2026-11-03T16:14:42.171+05:30  INFO 40664 --- [demo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T16:14:42.171+05:30  INFO 40664 --- [demo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-03T16:14:42.185+05:30  INFO 40664 --- [demo] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 177 ms
+2026-11-03T16:14:42.274+05:30  INFO 40664 --- [demo] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9514 (http) with context path '/'
+2026-11-03T16:14:42.279+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Started Application in 0.295 seconds (process running for 275.163)
+2026-11-03T16:14:42.280+05:30  INFO 40664 --- [demo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T16:14:42.281+05:30  INFO 40664 --- [demo] [restartedMain] Eventhub.demo.Application                : Application started
