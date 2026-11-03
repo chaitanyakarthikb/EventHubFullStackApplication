@@ -1,16 +1,15 @@
-package Eventhub.demo.Service.impl;
+package Eventhub.demo.Event.Service.impl;
 
-import Eventhub.demo.DTO.EventReqDTO;
-import Eventhub.demo.Entity.Event;
-import Eventhub.demo.Exception.BadRequestException;
-import Eventhub.demo.Exception.EventNotFoundException;
-import Eventhub.demo.Repository.EventRepository;
-import Eventhub.demo.Service.EventService;
+import Eventhub.demo.Event.DTO.EventReqDTO;
+import Eventhub.demo.Event.Entity.Event;
+import Eventhub.demo.Common.Exception.BadRequestException;
+import Eventhub.demo.Common.Exception.EventNotFoundException;
+import Eventhub.demo.Event.Repository.EventRepository;
+import Eventhub.demo.Event.Service.EventService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;

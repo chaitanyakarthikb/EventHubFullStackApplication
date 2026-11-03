@@ -1,11 +1,9 @@
-package Eventhub.demo.Service;
+package Eventhub.demo.Event.Service;
 
-import Eventhub.demo.DTO.EventReqDTO;
-import Eventhub.demo.Entity.Event;
-import org.springframework.stereotype.Service;
+import Eventhub.demo.Event.DTO.EventReqDTO;
+import Eventhub.demo.Event.Entity.Event;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.UUID;
 
 public interface EventService {

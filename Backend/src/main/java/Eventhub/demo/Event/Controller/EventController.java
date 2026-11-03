@@ -1,9 +1,8 @@
-package Eventhub.demo.Controller;
+package Eventhub.demo.Event.Controller;
 
-import Eventhub.demo.DTO.EventReqDTO;
-import Eventhub.demo.Entity.Event;
-import Eventhub.demo.Service.EventService;
-import Eventhub.demo.Service.impl.EventServiceImpl;
+import Eventhub.demo.Event.DTO.EventReqDTO;
+import Eventhub.demo.Event.Entity.Event;
+import Eventhub.demo.Event.Service.EventService;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatusCode;

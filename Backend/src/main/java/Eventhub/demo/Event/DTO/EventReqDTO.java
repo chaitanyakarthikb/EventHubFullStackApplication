@@ -1,4 +1,4 @@
-package Eventhub.demo.DTO;
+package Eventhub.demo.Event.DTO;
 
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.Min;

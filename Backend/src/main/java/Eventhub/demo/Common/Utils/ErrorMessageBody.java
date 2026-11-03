@@ -1,4 +1,4 @@
-package Eventhub.demo.Utils;
+package Eventhub.demo.Common.Utils;
 import java.util.HashMap;
 
 public class ErrorMessageBody {

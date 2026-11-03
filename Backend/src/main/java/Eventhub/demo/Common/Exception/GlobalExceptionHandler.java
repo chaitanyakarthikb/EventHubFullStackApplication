@@ -1,6 +1,6 @@
-package Eventhub.demo.Exception;
+package Eventhub.demo.Common.Exception;
 
-import Eventhub.demo.Utils.ErrorMessageBody;
+import Eventhub.demo.Common.Utils.ErrorMessageBody;
 import jakarta.validation.UnexpectedTypeException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
@@ -21,6 +21,12 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(EventNotFoundException.class)
     public ResponseEntity<Map<String,Object>> handleEventNotFound(EventNotFoundException eventNotFoundException){
         HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",eventNotFoundException.getMessage());
+        return ResponseEntity.status(HttpStatusCode.valueOf(404)).body(map);
+    }
+
+    @ExceptionHandler(VenueNotFoundException.class)
+    public ResponseEntity<Map<String,Object>> handleVenueNotFoundException(VenueNotFoundException venueNotFoundException){
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",venueNotFoundException.getMessage());
         return ResponseEntity.status(HttpStatusCode.valueOf(404)).body(map);
     }
 

@@ -1,8 +1,7 @@
-package Eventhub.demo.Repository.Impl;
+package Eventhub.demo.Event.Repository.Impl;
 
-import Eventhub.demo.Entity.Event;
-import Eventhub.demo.Exception.EventNotFoundException;
-import Eventhub.demo.Repository.EventRepository;
+import Eventhub.demo.Event.Entity.Event;
+import Eventhub.demo.Event.Repository.EventRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;

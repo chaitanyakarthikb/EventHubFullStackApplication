@@ -1,4 +1,4 @@
-package Eventhub.demo.Entity;
+package Eventhub.demo.Event.Entity;
 
 import lombok.*;
 import java.time.Instant;

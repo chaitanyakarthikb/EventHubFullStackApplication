@@ -1,7 +1,7 @@
-package Eventhub.demo.Repository;
+package Eventhub.demo.Event.Repository;
 
-import Eventhub.demo.Entity.Event;
-import org.springframework.stereotype.Repository;
+import Eventhub.demo.Event.Entity.Event;
+
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
