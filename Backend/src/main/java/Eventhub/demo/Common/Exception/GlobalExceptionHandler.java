@@ -6,7 +6,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.validation.FieldError;
+import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -65,6 +67,20 @@ public class GlobalExceptionHandler {
         body.put("errors", fieldErrors);
 
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(body);
+    }
+
+    @ExceptionHandler(HttpMessageNotReadableException.class)
+    public ResponseEntity<Map<String,Object>> handleBadRequestError(HttpMessageNotReadableException exception){
+        log.warn("HttpMessageNotReadableException == > {}",exception.getMessage());
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error","Invalid Request Body, Please check the request body and try again");
+        return ResponseEntity.status(HttpStatusCode.valueOf(400)).body(map);
+    }
+
+    @ExceptionHandler(HttpRequestMethodNotSupportedException.class)
+    public ResponseEntity<Map<String,Object>> handleMethodNotSupportedError(HttpRequestMethodNotSupportedException exception){
+        log.warn("HttpRequestMethodNotSupportedException == > {}", exception.getMessage());
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error", "Method not supported");
+        return ResponseEntity.status(HttpStatusCode.valueOf(405)).body(map);
     }
 
     @ExceptionHandler(Exception.class)
