@@ -21,12 +21,12 @@ public class VenueServiceImpl implements VenueService {
     }
     @Override
     public List<Venue> getAllVenues() {
-        return venueRepository.findAll();
+        return venueRepository.getAllVenues();
     }
 
     @Override
     public Venue getVenueById(UUID venueId) {
-        Optional<Venue>myVenue = venueRepository.getVenueByVenueId(venueId);
+        Optional<Venue>myVenue = venueRepository.getVenueById(venueId);
         log.info("Fetching venue with ID: {}", venueId);
         if (myVenue.isEmpty()){
             log.warn("Venue not found with the ID : {}" , venueId);
@@ -38,39 +38,34 @@ public class VenueServiceImpl implements VenueService {
     @Override
     public Venue createVenue(VenueReqDTO venueReqDTO) {
         Venue venue = new Venue();
+        venue.setVenueId(UUID.randomUUID());
         venue.setVenueName(venueReqDTO.getVenueName());
         venue.setAddress(venueReqDTO.getAddress());
         venue.setMaxCapacity(venueReqDTO.getMaxCapacity());
-        Venue venueCreated = venueRepository.save(venue);
-        log.info("Venue Created : {}", venueCreated);
+        Venue venueCreated = venueRepository.createVenue(venue);
+        log.info("Venue Created : {}",venueCreated.toString());
         return venueCreated;
     }
 
     @Override
     public Venue deleteVenue(UUID venueId) {
         log.info("Deleting venue with ID: {}", venueId);
-        Optional<Venue> existingVenue = venueRepository.findById(venueId);
-        if (existingVenue.isEmpty()){
+        Optional<Venue>venue = venueRepository.deleteVenue(venueId);
+        if (venue.isEmpty()){
             log.warn("Venue not found with the ID : {}" , venueId);
             throw new VenueNotFoundException("Venue not found with the ID : " + venueId);
         }
-        Venue myExistingVenue = existingVenue.get();
-        venueRepository.delete(myExistingVenue);
-        return myExistingVenue;
+        return venue.get();
     }
 
     @Override
     public Venue updateVenue(UUID venueId, VenueReqDTO venueReqDTO) {
         log.info("Updating venue with ID : {}",venueId);
-        Optional<Venue> existingVenue = venueRepository.getVenueByVenueId(venueId);
-        if (existingVenue.isEmpty()){
+        Optional<Venue> updatedVenue = venueRepository.updateVenue(venueId,venueReqDTO);
+        if (updatedVenue.isEmpty()){
             log.warn("Venue not found with the ID : {}" , venueId);
             throw new VenueNotFoundException("Venue not found with the ID : " + venueId);
         }
-        Venue venue = existingVenue.get();
-        venue.setVenueName(venueReqDTO.getVenueName());
-        venue.setAddress(venueReqDTO.getAddress());
-        venue.setMaxCapacity(venueReqDTO.getMaxCapacity());
-        return venueRepository.save(venue);
+        return updatedVenue.get();
     }
 }

@@ -1,15 +1,16 @@
 package Eventhub.demo.Venue.Repository;
 
+import Eventhub.demo.Venue.DTO.VenueReqDTO;
 import Eventhub.demo.Venue.Entity.Venue;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-@Repository
-public interface VenueRepository extends JpaRepository<Venue,UUID> {
-    Optional<Venue> getVenueByVenueId(UUID venueId);
-    Optional<Venue> deleteVenueByVenueId(UUID venueId);
+public interface VenueRepository {
+    List<Venue> getAllVenues();
+    Optional<Venue> getVenueById(UUID venueId);
+    Venue createVenue(Venue venue);
+    Optional<Venue> deleteVenue(UUID venueId);
+    Optional<Venue> updateVenue(UUID venueId, VenueReqDTO venueReqDTO);
 }
