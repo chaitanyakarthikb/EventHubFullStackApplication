@@ -35,8 +35,7 @@ public class EventServiceImpl implements EventService {
         event.setVenueId(eventReqDTO.getVenueId());
         event.setDateAndTime(eventReqDTO.getTimeAndDate());
         event.setEventCapacity(eventReqDTO.getEventCapacity());
-        event.setEventId(UUID.randomUUID());
-        Event responseEvent = eventRepository.saveEvent(event);
+        Event responseEvent = eventRepository.save(event);
         log.info("Event Created Successfully, eventID : {}",responseEvent.getEventId());
         return responseEvent;
 
@@ -51,19 +50,15 @@ public class EventServiceImpl implements EventService {
 
     @Override
     public List<Event> getAllEvents() {
-        return eventRepository.findAllEvents();
+        return eventRepository.findAll();
     }
 
     @Override
     public Event deleteEvent(UUID eventId) {
-        Optional<Event> myEvent =  eventRepository.deleteById(eventId);
-        if(myEvent.isEmpty()){
-            log.warn("No event found with the ID : {} to delete", eventId);
-            throw new EventNotFoundException("No Event found with the ID : "+eventId);
-        }
-        Event event = myEvent.get();
-        log.info("Event Deleted Successfully, eventID : {}",event.getEventId());
-        return event;
+        Event myEvent =  getEventById(eventId);
+        eventRepository.delete(myEvent);
+        log.info("Event Deleted Successfully, eventID : {}",myEvent.getEventId());
+        return myEvent;
     }
 
     @Override
@@ -78,7 +73,7 @@ public class EventServiceImpl implements EventService {
         event.setEventName(eventReqDTO.getEventName());
         event.setVenueId(eventReqDTO.getVenueId());
         event.setDateAndTime(eventReqDTO.getTimeAndDate());
-        eventRepository.saveEvent(event);
+        eventRepository.save(event);
         log.info("Event Updated Successfully, eventID : {}",event.getEventId());
         return event;
     }
