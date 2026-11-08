@@ -1,5 +1,9 @@
 package Eventhub.demo.Event.Entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.*;
 import java.time.Instant;
 import java.util.UUID;
@@ -9,12 +13,14 @@ import java.util.UUID;
 @NoArgsConstructor
 @Builder
 @ToString
+@Entity
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Event {
     @EqualsAndHashCode.Include
-    @Setter
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID eventId;
-    @Setter 
+    @Setter
     private UUID venueId;
     @Setter
     private String eventName;
