@@ -10,6 +10,4 @@ import java.util.UUID;
 
 @Repository
 public interface VenueRepository extends JpaRepository<Venue,UUID> {
-    Optional<Venue> getVenueByVenueId(UUID venueId);
-    Optional<Venue> deleteVenueByVenueId(UUID venueId);
 }

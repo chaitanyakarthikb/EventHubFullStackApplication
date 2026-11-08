@@ -26,7 +26,7 @@ public class VenueServiceImpl implements VenueService {
 
     @Override
     public Venue getVenueById(UUID venueId) {
-        Optional<Venue>myVenue = venueRepository.getVenueByVenueId(venueId);
+        Optional<Venue>myVenue = venueRepository.findById(venueId);
         log.info("Fetching venue with ID: {}", venueId);
         if (myVenue.isEmpty()){
             log.warn("Venue not found with the ID : {}" , venueId);
@@ -62,7 +62,7 @@ public class VenueServiceImpl implements VenueService {
     @Override
     public Venue updateVenue(UUID venueId, VenueReqDTO venueReqDTO) {
         log.info("Updating venue with ID : {}",venueId);
-        Optional<Venue> existingVenue = venueRepository.getVenueByVenueId(venueId);
+        Optional<Venue> existingVenue = venueRepository.findById(venueId);
         if (existingVenue.isEmpty()){
             log.warn("Venue not found with the ID : {}" , venueId);
             throw new VenueNotFoundException("Venue not found with the ID : " + venueId);
