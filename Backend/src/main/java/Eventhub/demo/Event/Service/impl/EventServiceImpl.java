@@ -8,13 +8,12 @@ import Eventhub.demo.Event.Repository.EventRepository;
 import Eventhub.demo.Event.Service.EventService;
 import Eventhub.demo.Venue.Entity.Venue;
 import Eventhub.demo.Venue.Service.Impl.VenueServiceImpl;
-import Eventhub.demo.Venue.Utils.VenueUtils;
+import Eventhub.demo.Venue.Service.VenueService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
 import java.util.List;
-import java.util.Optional;
 import java.util.UUID;
 
 @Slf4j
@@ -22,7 +21,7 @@ import java.util.UUID;
 public class EventServiceImpl implements EventService {
 
     private final EventRepository eventRepository;
-    private final VenueServiceImpl venueService;
+    private final VenueService venueService;
 
     public EventServiceImpl(EventRepository eventRepository, VenueServiceImpl venueService){
         this.eventRepository = eventRepository;
@@ -41,6 +40,7 @@ public class EventServiceImpl implements EventService {
         event.setVenue(myVenue);
         event.setDateAndTime(eventReqDTO.getTimeAndDate());
         event.setEventCapacity(eventReqDTO.getEventCapacity());
+        event.setVenue(myVenue);
         Event responseEvent = eventRepository.save(event);
         log.info("Event Created Successfully, eventID : {}",responseEvent.getEventId());
         return responseEvent;
@@ -75,9 +75,10 @@ public class EventServiceImpl implements EventService {
             log.warn("UPDATE_EVENT , Event time and date cannot be in the past. Provided time: {}", eventReqDTO.getTimeAndDate());
             throw new BadRequestException("Event time and date cannot be in the past.");
         }
+        Venue myVenue = venueService.getVenueById(eventReqDTO.getVenueId());
         event.setEventCapacity(eventReqDTO.getEventCapacity());
         event.setEventName(eventReqDTO.getEventName());
-//        event.setVenueId(eventReqDTO.getVenueId());
+        event.setVenue(myVenue);
         event.setDateAndTime(eventReqDTO.getTimeAndDate());
         eventRepository.save(event);
         log.info("Event Updated Successfully, eventID : {}",event.getEventId());
