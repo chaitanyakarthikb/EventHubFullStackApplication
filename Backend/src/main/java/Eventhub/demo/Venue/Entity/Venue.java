@@ -1,12 +1,13 @@
 package Eventhub.demo.Venue.Entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import Eventhub.demo.Event.Entity.Event;
+import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
 import java.util.UUID;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Getter
 @AllArgsConstructor
@@ -23,4 +24,7 @@ public class Venue {
     private String address;
     @Setter
     private int maxCapacity;
+    @JsonIgnore 
+    @OneToMany(mappedBy = "venue")
+    private List<Event> events;
 }
