@@ -7,6 +7,8 @@ import lombok.*;
 import java.util.List;
 import java.util.UUID;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
@@ -22,6 +24,7 @@ public class Venue {
     private String address;
     @Setter
     private int maxCapacity;
+    @JsonIgnore 
     @OneToMany(mappedBy = "venue")
     private List<Event> events;
 }
