@@ -7,7 +7,6 @@ import Eventhub.demo.Common.Exception.EventNotFoundException;
 import Eventhub.demo.Event.Repository.EventRepository;
 import Eventhub.demo.Event.Service.EventService;
 import Eventhub.demo.Venue.Entity.Venue;
-import Eventhub.demo.Venue.Service.Impl.VenueServiceImpl;
 import Eventhub.demo.Venue.Service.VenueService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -23,7 +22,7 @@ public class EventServiceImpl implements EventService {
     private final EventRepository eventRepository;
     private final VenueService venueService;
 
-    public EventServiceImpl(EventRepository eventRepository, VenueServiceImpl venueService){
+    public EventServiceImpl(EventRepository eventRepository, VenueService venueService){
         this.eventRepository = eventRepository;
         this.venueService = venueService;
     }
@@ -40,7 +39,6 @@ public class EventServiceImpl implements EventService {
         event.setVenue(myVenue);
         event.setDateAndTime(eventReqDTO.getTimeAndDate());
         event.setEventCapacity(eventReqDTO.getEventCapacity());
-        event.setVenue(myVenue);
         Event responseEvent = eventRepository.save(event);
         log.info("Event Created Successfully, eventID : {}",responseEvent.getEventId());
         return responseEvent;
