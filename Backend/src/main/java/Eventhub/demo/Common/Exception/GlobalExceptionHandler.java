@@ -34,7 +34,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(BadRequestException.class)
     public ResponseEntity<Map<String,Object>> handleIllegalArgumentException(BadRequestException exception){
-        log.warn("IllegalArgumentException , error: {}",exception.getMessage());
+        log.warn("BadRequestException , error: {}",exception.getMessage());
         HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",exception.getMessage());
         return ResponseEntity.status(HttpStatusCode.valueOf(400)).body(map);
     }
