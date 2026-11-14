@@ -18,9 +18,11 @@ import java.util.UUID;
 @Service
 public class VenueServiceImpl implements VenueService {
     private final VenueRepository venueRepository;
+    private final EventUtils eventUtils;
 
-    public VenueServiceImpl(VenueRepository venueRepository) {
+    public VenueServiceImpl(VenueRepository venueRepository,EventUtils eventUtils) {
         this.venueRepository = venueRepository;
+        this.eventUtils = eventUtils;
     }
     @Override
     public List<Venue> getAllVenues() {
@@ -57,8 +59,7 @@ public class VenueServiceImpl implements VenueService {
             log.warn("Venue not found with the ID : {}" , venueId);
             throw new VenueNotFoundException("Venue not found with the ID : " + venueId);
         }
-        List<Event> events = EventUtils.getEventsByVenueId(venueId);
-        if (!events.isEmpty()){
+        if (eventUtils.hasEventByVenueId(venueId)){
             log.warn("Cannot delete venue with ID: {} as it has associated events", venueId);
             throw new BadRequestException("Cannot delete venue with ID " + venueId + " because it has associated events.");
         }
