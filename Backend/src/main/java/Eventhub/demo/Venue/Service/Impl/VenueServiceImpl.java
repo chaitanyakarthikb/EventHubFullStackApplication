@@ -59,7 +59,7 @@ public class VenueServiceImpl implements VenueService {
             log.warn("Venue not found with the ID : {}" , venueId);
             throw new VenueNotFoundException("Venue not found with the ID : " + venueId);
         }
-        if (eventUtils.hasEventByVenueId(venueId)){
+        if (eventUtils.hasEventsByVenueId(venueId)){
             log.warn("Cannot delete venue with ID: {} as it has associated events", venueId);
             throw new BadRequestException("Cannot delete venue with ID " + venueId + " because it has associated events.");
         }

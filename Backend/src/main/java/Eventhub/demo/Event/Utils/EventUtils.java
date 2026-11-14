@@ -14,7 +14,7 @@ public class EventUtils {
         this.eventRepository = eventRepository;
     }
 
-    public boolean hasEventByVenueId(UUID venueId){
+    public boolean hasEventsByVenueId(UUID venueId){
         return eventRepository.existsByVenue_VenueId(venueId);
     }
 }
