@@ -1,6 +1,9 @@
 package Eventhub.demo.Venue.Service.Impl;
 
+import Eventhub.demo.Common.Exception.BadRequestException;
 import Eventhub.demo.Common.Exception.VenueNotFoundException;
+import Eventhub.demo.Event.Entity.Event;
+import Eventhub.demo.Event.Utils.EventUtils;
 import Eventhub.demo.Venue.DTO.VenueReqDTO;
 import Eventhub.demo.Venue.Entity.Venue;
 import Eventhub.demo.Venue.Repository.VenueRepository;
@@ -15,9 +18,11 @@ import java.util.UUID;
 @Service
 public class VenueServiceImpl implements VenueService {
     private final VenueRepository venueRepository;
+    private final EventUtils eventUtils;
 
-    public VenueServiceImpl(VenueRepository venueRepository) {
+    public VenueServiceImpl(VenueRepository venueRepository,EventUtils eventUtils) {
         this.venueRepository = venueRepository;
+        this.eventUtils = eventUtils;
     }
     @Override
     public List<Venue> getAllVenues() {
@@ -53,6 +58,10 @@ public class VenueServiceImpl implements VenueService {
         if (existingVenue.isEmpty()){
             log.warn("Venue not found with the ID : {}" , venueId);
             throw new VenueNotFoundException("Venue not found with the ID : " + venueId);
+        }
+        if (eventUtils.hasEventsByVenueId(venueId)){
+            log.warn("Cannot delete venue with ID: {} as it has associated events", venueId);
+            throw new BadRequestException("Cannot delete venue with ID " + venueId + " because it has associated events.");
         }
         Venue myExistingVenue = existingVenue.get();
         venueRepository.delete(myExistingVenue);
