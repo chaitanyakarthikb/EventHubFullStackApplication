@@ -7,6 +7,7 @@ import Eventhub.demo.User.Entity.User;
 import Eventhub.demo.User.Repository.UserRepository;
 import Eventhub.demo.User.Service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -25,9 +26,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserResDTO createUser(UserReqDTO userReqDTO) {
         log.info("Creating user with email:` {}", userReqDTO.getEmail());
-        if(userRepository.existsUserByEmail(userReqDTO.getEmail())){
+        if(userRepository.existsUserByEmail(userReqDTO.getEmail().trim().toLowerCase())){
             log.error("User with email: {} already exists",userReqDTO.getEmail());
-            throw new BadRequestException("User with email: " + userReqDTO.getEmail() + " already exists");
+        throw new DataIntegrityViolationException(
+            "User with email: " + userReqDTO.getEmail() + " already exists");
         }
         String hashedPassword = passwordEncoder.encode(userReqDTO.getPassword());
         User user = User.builder()
