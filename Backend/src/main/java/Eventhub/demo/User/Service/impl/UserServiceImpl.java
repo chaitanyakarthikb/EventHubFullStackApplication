@@ -34,7 +34,7 @@ public class UserServiceImpl implements UserService {
         String hashedPassword = passwordEncoder.encode(userReqDTO.getPassword());
         User user = User.builder()
                 .createdAt(Instant.now())
-                .email(userReqDTO.getEmail())
+                .email(userReqDTO.getEmail().trim().toLowerCase())
                 .fullName(userReqDTO.getFullName())
                 .role(User.UserRoles.USER)
                 .build();
