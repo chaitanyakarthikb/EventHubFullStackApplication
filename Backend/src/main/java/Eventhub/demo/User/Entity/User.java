@@ -12,6 +12,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "users")
+@Builder
 public class User {
     public enum UserRoles{
         ADMIN,
@@ -25,6 +26,7 @@ public class User {
     @Column(unique = true)
     private String email;
     private String passwordHash;
+    @Enumerated(EnumType.STRING)
     private UserRoles role;
     private Instant createdAt;
 }

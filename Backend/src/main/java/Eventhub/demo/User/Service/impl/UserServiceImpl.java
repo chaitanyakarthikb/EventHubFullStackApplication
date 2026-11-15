@@ -1,10 +1,14 @@
 package Eventhub.demo.User.Service.impl;
 
+import Eventhub.demo.Common.Exception.BadRequestException;
 import Eventhub.demo.User.DTO.UserReqDTO;
+import Eventhub.demo.User.DTO.UserResDTO;
 import Eventhub.demo.User.Entity.User;
 import Eventhub.demo.User.Repository.UserRepository;
 import Eventhub.demo.User.Service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
@@ -13,18 +17,35 @@ import java.time.Instant;
 @Slf4j
 public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
-    public UserServiceImpl(UserRepository userRepository){
+    private final PasswordEncoder passwordEncoder;
+    public UserServiceImpl(UserRepository userRepository, PasswordEncoder passwordEncoder){
         this.userRepository=userRepository;
+        this.passwordEncoder = passwordEncoder;
     }
     @Override
-    public User createUser(UserReqDTO userReqDTO) {
+    public UserResDTO createUser(UserReqDTO userReqDTO) {
         log.info("Creating user with email:` {}", userReqDTO.getEmail());
-        User user = new User();
-        user.setCreatedAt(Instant.now());
-        user.setRole(userReqDTO.getRole());
-        user.setFullName(userReqDTO.getFullName());
-        user.setEmail(userReqDTO.getEmail());
-        user.setPasswordHash(userReqDTO.getPasswordHash());
-        return userRepository.save(user);
+        if(userRepository.existsUserByEmail(userReqDTO.getEmail())){
+            log.error("User with email: {} already exists",userReqDTO.getEmail());
+            throw new BadRequestException("User with email: " + userReqDTO.getEmail() + " already exists");
+        }
+        String hashedPassword = passwordEncoder.encode(userReqDTO.getPassword());
+        User user = User.builder()
+                .createdAt(Instant.now())
+                .email(userReqDTO.getEmail())
+                .fullName(userReqDTO.getFullName())
+                .role(User.UserRoles.USER)
+                .build();
+        user.setPasswordHash(hashedPassword);
+        User myUser =  userRepository.save(user);
+        log.info("Created user and successfully saved in the DB : {}",myUser.getEmail());
+        return UserResDTO.builder()
+                .userId(myUser.getUserId())
+                .createdAt(myUser.getCreatedAt())
+                .email(myUser.getEmail())
+                .role(myUser.getRole())
+                .fullName(myUser.getFullName())
+                .build();
+
     }
 }

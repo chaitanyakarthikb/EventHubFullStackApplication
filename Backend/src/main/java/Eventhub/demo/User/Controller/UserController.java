@@ -1,8 +1,9 @@
 package Eventhub.demo.User.Controller;
 
 import Eventhub.demo.User.DTO.UserReqDTO;
-import Eventhub.demo.User.Entity.User;
+import Eventhub.demo.User.DTO.UserResDTO;
 import Eventhub.demo.User.Service.UserService;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -24,9 +25,9 @@ public class UserController {
     }
 
     @PostMapping("/signup")
-    public ResponseEntity<Map<String,Object>> createUser(@RequestBody UserReqDTO userReqDTO){
+    public ResponseEntity<Map<String,Object>> createUser(@RequestBody @Valid UserReqDTO userReqDTO){
         log.info("Request received to create user with email: {}",userReqDTO.getEmail());
-        User myUser = userService.createUser(userReqDTO);
+        UserResDTO myUser = userService.createUser(userReqDTO);
         HashMap<String, Object>response = new HashMap<>();
         response.put("apiStatus","success");
         response.put("user",myUser);
