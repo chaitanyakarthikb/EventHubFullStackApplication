@@ -3,6 +3,7 @@ package Eventhub.demo.Common.Exception;
 import Eventhub.demo.Common.Utils.ErrorMessageBody;
 import jakarta.validation.UnexpectedTypeException;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
@@ -81,6 +82,13 @@ public class GlobalExceptionHandler {
         log.warn("HttpRequestMethodNotSupportedException == > {}", exception.getMessage());
         HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error", "Method not supported");
         return ResponseEntity.status(HttpStatusCode.valueOf(405)).body(map);
+    }
+
+    @ExceptionHandler(DataIntegrityViolationException.class)
+    public ResponseEntity<Map<String,Object>> handleDataIntegrityViolationException(DataIntegrityViolationException exception){
+        log.warn("DataIntegrityViolationException == > {}", exception.getMessage());
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error", "Data integrity violation");
+        return ResponseEntity.status(HttpStatusCode.valueOf(409)).body(map);
     }
 
     @ExceptionHandler(Exception.class)
