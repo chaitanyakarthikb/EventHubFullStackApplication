@@ -88,6 +88,7 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Map<String,Object>> handleDataIntegrityViolationException(DataIntegrityViolationException exception){
         log.warn("DataIntegrityViolationException == > {}", exception.getMessage());
         HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error", "Data integrity Violation Occurred");
+        map.put("details", exception.getMostSpecificCause().getMessage());
         return ResponseEntity.status(HttpStatusCode.valueOf(409)).body(map);
     }
 
