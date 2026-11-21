@@ -33,6 +33,12 @@ public class GlobalExceptionHandler {
         return ResponseEntity.status(HttpStatusCode.valueOf(404)).body(map);
     }
 
+    @ExceptionHandler(UserNotFoundException.class)
+    public ResponseEntity<Map<String,Object>> handleUserNotFoundException(UserNotFoundException userNotFoundException){
+        HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",userNotFoundException.getMessage());
+        return ResponseEntity.status(HttpStatusCode.valueOf(404)).body(map);
+    }
+
     @ExceptionHandler(BadRequestException.class)
     public ResponseEntity<Map<String,Object>> handleIllegalArgumentException(BadRequestException exception){
         log.warn("BadRequestException , error: {}",exception.getMessage());

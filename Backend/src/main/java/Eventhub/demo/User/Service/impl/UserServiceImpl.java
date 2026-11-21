@@ -1,5 +1,6 @@
 package Eventhub.demo.User.Service.impl;
 
+import Eventhub.demo.Common.Exception.UserNotFoundException;
 import Eventhub.demo.User.DTO.LoginReqUserDTO;
 import Eventhub.demo.User.DTO.SignupUserReqDTO;
 import Eventhub.demo.User.DTO.UserResDTO;
@@ -52,12 +53,15 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserResDTO loginUser(LoginReqUserDTO loginReqUserDTO){
-        User user  = userRepository.findUserByEmail(loginReqUserDTO.getEmail());
+        User user  = userRepository.findUserByEmail(loginReqUserDTO.getEmail().trim().toLowerCase());
+        if (user == null){
+            throw new UserNotFoundException("User with email: " + loginReqUserDTO.getEmail().trim().toLowerCase() + " not found");
+        }
         if (passwordEncoder.matches(loginReqUserDTO.getPassword(), user.getPasswordHash())){
             return UserResDTO.builder()
                     .userId(user.getUserId())
                     .role(user.getRole())
-                    .email(user.getEmail())
+                    .email(user.getEmail().trim().toLowerCase())
                     .fullName(user.getFullName())
                     .createdAt(user.getCreatedAt())
                     .build();

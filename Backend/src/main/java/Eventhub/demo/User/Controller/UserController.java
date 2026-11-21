@@ -36,7 +36,7 @@ public class UserController {
     }
 
     @PostMapping("/login")
-    public ResponseEntity<Map<String,Object>> loginUser(@RequestBody LoginReqUserDTO loginUserReqDTO){
+    public ResponseEntity<Map<String,Object>> loginUser(@RequestBody @Valid LoginReqUserDTO loginUserReqDTO){
         log.info("Request received to login user with email: {}",loginUserReqDTO.getEmail());
         HashMap<String,Object>response = new HashMap<>();
         UserResDTO userResDTO = userService.loginUser(loginUserReqDTO);
