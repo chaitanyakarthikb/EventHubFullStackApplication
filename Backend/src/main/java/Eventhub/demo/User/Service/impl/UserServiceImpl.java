@@ -66,7 +66,7 @@ public class UserServiceImpl implements UserService {
                     .createdAt(user.getCreatedAt())
                     .build();
         }else{
-            throw new UserNotFoundException("Invalid Credentials/User With The Given Email does not exist");
+            throw new UserNotFoundException("Invalid Credentials or User With The Given Email does not exist");
         }
     }
 }
