@@ -1,10 +1,11 @@
 package Eventhub.demo.User.Service;
 
 
-import Eventhub.demo.User.DTO.UserReqDTO;
+import Eventhub.demo.User.DTO.LoginReqUserDTO;
+import Eventhub.demo.User.DTO.SignupUserReqDTO;
 import Eventhub.demo.User.DTO.UserResDTO;
-import Eventhub.demo.User.Entity.User;
 
 public interface UserService {
-    UserResDTO createUser(UserReqDTO userReqDTO);
+    UserResDTO createUser(SignupUserReqDTO userReqDTO);
+    UserResDTO loginUser(LoginReqUserDTO loginReqUserDTO);
 }
