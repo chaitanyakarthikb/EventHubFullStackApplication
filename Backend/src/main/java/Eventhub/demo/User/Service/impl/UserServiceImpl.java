@@ -55,7 +55,7 @@ public class UserServiceImpl implements UserService {
     public UserResDTO loginUser(LoginReqUserDTO loginReqUserDTO){
         User user  = userRepository.findUserByEmail(loginReqUserDTO.getEmail().trim().toLowerCase());
         if (user == null){
-            throw new UserNotFoundException("User with given email not found");
+            throw new UserNotFoundException("Invalid Credentials or User With The Given Email does not exist");
         }
         if (passwordEncoder.matches(loginReqUserDTO.getPassword(), user.getPasswordHash())){
             return UserResDTO.builder()
@@ -65,7 +65,8 @@ public class UserServiceImpl implements UserService {
                     .fullName(user.getFullName())
                     .createdAt(user.getCreatedAt())
                     .build();
+        }else{
+            throw new UserNotFoundException("Invalid Credentials/User With The Given Email does not exist");
         }
-        return null;
     }
 }

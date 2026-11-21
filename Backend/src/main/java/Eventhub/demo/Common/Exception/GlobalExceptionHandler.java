@@ -36,7 +36,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(UserNotFoundException.class)
     public ResponseEntity<Map<String,Object>> handleUserNotFoundException(UserNotFoundException userNotFoundException){
         HashMap<String,Object>map = ErrorMessageBody.buildErrorMessageBody("error",userNotFoundException.getMessage());
-        return ResponseEntity.status(HttpStatusCode.valueOf(404)).body(map);
+        return ResponseEntity.status(HttpStatusCode.valueOf(401)).body(map);
     }
 
     @ExceptionHandler(BadRequestException.class)
