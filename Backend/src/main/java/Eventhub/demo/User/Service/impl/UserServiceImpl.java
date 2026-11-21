@@ -1,14 +1,13 @@
 package Eventhub.demo.User.Service.impl;
 
-import Eventhub.demo.Common.Exception.BadRequestException;
-import Eventhub.demo.User.DTO.UserReqDTO;
+import Eventhub.demo.User.DTO.LoginReqUserDTO;
+import Eventhub.demo.User.DTO.SignupUserReqDTO;
 import Eventhub.demo.User.DTO.UserResDTO;
 import Eventhub.demo.User.Entity.User;
 import Eventhub.demo.User.Repository.UserRepository;
 import Eventhub.demo.User.Service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DataIntegrityViolationException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -24,9 +23,9 @@ public class UserServiceImpl implements UserService {
         this.passwordEncoder = passwordEncoder;
     }
     @Override
-    public UserResDTO createUser(UserReqDTO userReqDTO) {
+    public UserResDTO createUser(SignupUserReqDTO userReqDTO) {
         log.info("Creating user with email:` {}", userReqDTO.getEmail());
-        if(userRepository.existsUserByEmail(userReqDTO.getEmail().trim().toLowerCase())){
+        if(userRepository.findUserByEmail(userReqDTO.getEmail().trim().toLowerCase())!=null){
             log.error("User with email: {} already exists",userReqDTO.getEmail());
         throw new DataIntegrityViolationException(
             "User with email: " + userReqDTO.getEmail() + " already exists");
@@ -49,5 +48,20 @@ public class UserServiceImpl implements UserService {
                 .fullName(myUser.getFullName())
                 .build();
 
+    }
+
+    @Override
+    public UserResDTO loginUser(LoginReqUserDTO loginReqUserDTO){
+        User user  = userRepository.findUserByEmail(loginReqUserDTO.getEmail());
+        if (passwordEncoder.matches(loginReqUserDTO.getPassword(), user.getPasswordHash())){
+            return UserResDTO.builder()
+                    .userId(user.getUserId())
+                    .role(user.getRole())
+                    .email(user.getEmail())
+                    .fullName(user.getFullName())
+                    .createdAt(user.getCreatedAt())
+                    .build();
+        }
+        return null;
     }
 }
