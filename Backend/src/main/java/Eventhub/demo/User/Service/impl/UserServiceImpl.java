@@ -1,7 +1,9 @@
 package Eventhub.demo.User.Service.impl;
 
 import Eventhub.demo.Common.Exception.UserNotFoundException;
+import Eventhub.demo.Config.JWTService;
 import Eventhub.demo.User.DTO.LoginReqUserDTO;
+import Eventhub.demo.User.DTO.LoginResDTO;
 import Eventhub.demo.User.DTO.SignupUserReqDTO;
 import Eventhub.demo.User.DTO.UserResDTO;
 import Eventhub.demo.User.Entity.User;
@@ -19,9 +21,11 @@ import java.time.Instant;
 public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
-    public UserServiceImpl(UserRepository userRepository, PasswordEncoder passwordEncoder){
+    private final JWTService jwtService;
+    public UserServiceImpl(UserRepository userRepository, PasswordEncoder passwordEncoder, JWTService jwtService){
         this.userRepository=userRepository;
         this.passwordEncoder = passwordEncoder;
+        this.jwtService = jwtService;
     }
     @Override
     public UserResDTO createUser(SignupUserReqDTO userReqDTO) {
@@ -52,18 +56,15 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public UserResDTO loginUser(LoginReqUserDTO loginReqUserDTO){
+    public LoginResDTO loginUser(LoginReqUserDTO loginReqUserDTO){
         User user  = userRepository.findUserByEmail(loginReqUserDTO.getEmail().trim().toLowerCase());
         if (user == null){
             throw new UserNotFoundException("Invalid Credentials or User With The Given Email does not exist");
         }
         if (passwordEncoder.matches(loginReqUserDTO.getPassword(), user.getPasswordHash())){
-            return UserResDTO.builder()
-                    .userId(user.getUserId())
-                    .role(user.getRole())
-                    .email(user.getEmail().trim().toLowerCase())
-                    .fullName(user.getFullName())
-                    .createdAt(user.getCreatedAt())
+            return LoginResDTO.builder()
+                    .user(user)
+                    .token(jwtService.generateToken(user.getUserId(),user.getRole()))
                     .build();
         }else{
             throw new UserNotFoundException("Invalid Credentials or User With The Given Email does not exist");
