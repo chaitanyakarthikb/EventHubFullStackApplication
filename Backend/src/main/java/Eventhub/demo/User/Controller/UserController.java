@@ -1,6 +1,7 @@
 package Eventhub.demo.User.Controller;
 
 import Eventhub.demo.User.DTO.LoginReqUserDTO;
+import Eventhub.demo.User.DTO.LoginResDTO;
 import Eventhub.demo.User.DTO.SignupUserReqDTO;
 import Eventhub.demo.User.DTO.UserResDTO;
 import Eventhub.demo.User.Service.UserService;
@@ -39,10 +40,11 @@ public class UserController {
     public ResponseEntity<Map<String,Object>> loginUser(@RequestBody @Valid LoginReqUserDTO loginUserReqDTO){
         log.info("Request received to login user with email: {}",loginUserReqDTO.getEmail());
         HashMap<String,Object>response = new HashMap<>();
-        UserResDTO userResDTO = userService.loginUser(loginUserReqDTO);
-        if (userResDTO!=null){
+        LoginResDTO loginResDTO = userService.loginUser(loginUserReqDTO);
+        if (loginResDTO!=null){
             response.put("loginStatus","success");
-            response.put("user",userResDTO);
+            response.put("user",loginResDTO.getUser());
+            response.put("token",loginResDTO.getToken());
             return ResponseEntity.status(200).body(response);
         }
         response.put("loginStatus","Failed");
