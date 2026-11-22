@@ -15,18 +15,21 @@ import java.util.UUID;
 public class JWTService {
 
     private final SecretKey secretKey;
+    private final Long expirationTime;
 
-    public JWTService(@Value("${jwt.secret}") String secret) {
+    public JWTService(@Value("${jwt.secret}") String secret, @Value("${jwt.expiration}") Long expirationTime) {
         this.secretKey = Keys.hmacShaKeyFor(
                 Decoders.BASE64.decode(secret)
         );
+        this.expirationTime = expirationTime;
+
     }
 
     public String generateToken(UUID userId, User.UserRoles role) {
 
         Date issuedAt = new Date();
         Date expiration = new Date(
-                issuedAt.getTime() + 3600000
+                issuedAt.getTime() + expirationTime
         );
 
         return Jwts.builder()

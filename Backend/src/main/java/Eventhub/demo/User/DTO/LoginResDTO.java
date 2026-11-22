@@ -9,7 +9,7 @@ import lombok.Setter;
 @Builder
 @Getter
 public class LoginResDTO {
-    private User user;
+    private UserResDTO user;
     private String token;
 
 }

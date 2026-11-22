@@ -62,8 +62,15 @@ public class UserServiceImpl implements UserService {
             throw new UserNotFoundException("Invalid Credentials or User With The Given Email does not exist");
         }
         if (passwordEncoder.matches(loginReqUserDTO.getPassword(), user.getPasswordHash())){
+            UserResDTO userResDTO = UserResDTO.builder()
+                    .userId(user.getUserId())
+                    .email(user.getEmail())
+                    .role(user.getRole())
+                    .fullName(user.getFullName())
+                    .createdAt(user.getCreatedAt())
+                    .build();
             return LoginResDTO.builder()
-                    .user(user)
+                    .user(userResDTO)
                     .token(jwtService.generateToken(user.getUserId(),user.getRole()))
                     .build();
         }else{
